@@ -8,3 +8,18 @@ html {
   margin: 0;
   box-sizing: border-box;
 }
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  text-transform: uppercase;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
