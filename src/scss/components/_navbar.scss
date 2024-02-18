@@ -1,0 +1,7 @@
+// navbar.scss
+
+@use "../base/variables" as v;
+
+nav {
+  background-color: v.$background-primary;
+}

@@ -5,7 +5,7 @@ import Productos from "./components/Productos";
 import Aromas from "./components/Aromas";
 import Nosotros from "./components/Nosotros";
 import Contacto from "./components/Contacto";
-import "./App.css";
+import "./scss/index.scss";
 
 function App() {
   return (
