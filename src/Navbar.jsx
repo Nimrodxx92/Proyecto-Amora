@@ -1,5 +1,12 @@
 import { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
+import {
+  FaInstagram,
+  FaWhatsapp,
+  FaEnvelope,
+  FaAngleDown,
+  FaAngleUp,
+} from "react-icons/fa";
 
 const NavBar = () => {
   const [showProductos, setShowProductos] = useState(false);
@@ -23,23 +30,30 @@ const NavBar = () => {
       ],
     },
     { name: "Aromas", link: "/aromas" },
-    { name: "Nosotros", link: "/nosotros" },
+    { name: "Nosotras", link: "/nosotras" },
     { name: "Contacto", link: "/contacto" },
   ];
 
   return (
     <nav>
+      <div className="logo">
+        <NavLink to="/">
+          <span>LOGO</span>
+        </NavLink>
+      </div>
       <ul>
         {menuItems.map((item, index) => (
           <li key={index}>
-            {item.name === "Productos" ? (
+            <NavLink to={item.link} activeClassName="active">
+              {item.name}
+            </NavLink>
+            {item.name === "Productos" && (
               <>
-                <NavLink to={item.link}>{item.name}</NavLink>
-                <span onClick={toggleProductos}>
-                  {showProductos ? "▲" : "▼"}
+                <span className="arrow" onClick={toggleProductos}>
+                  {showProductos ? <FaAngleUp /> : <FaAngleDown />}
                 </span>
                 {showProductos && (
-                  <ul>
+                  <ul className="submenu">
                     {item.submenu.map((subitem, subindex) => (
                       <li key={subindex}>
                         <NavLink
@@ -53,16 +67,21 @@ const NavBar = () => {
                   </ul>
                 )}
               </>
-            ) : (
-              <li>
-                <NavLink to={item.link} activeClassName="active">
-                  {item.name}
-                </NavLink>
-              </li>
             )}
           </li>
         ))}
       </ul>
+      <div className="icons-redes">
+        <Link to="#">
+          <FaInstagram />
+        </Link>
+        <Link to="#">
+          <FaWhatsapp />
+        </Link>
+        <Link to="#">
+          <FaEnvelope />
+        </Link>
+      </div>
     </nav>
   );
 };

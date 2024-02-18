@@ -4,4 +4,26 @@
 
 nav {
   background-color: v.$background-primary;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 3rem;
+  ul {
+    display: flex;
+    gap: 1rem;
+    a {
+      color: v.$color-font;
+    }
+    .arrow {
+      margin-left: 15px;
+    }
+    .submenu {
+      display: flex;
+      flex-direction: column;
+      margin: 10px 0;
+    }
+  }
+  .icons-redes a {
+    color: v.$color-font;
+    margin: 0.7rem;
+  }
 }
