@@ -1,0 +1,63 @@
+@use "../base/variables" as v;
+
+.mobile-menu {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 999;
+  opacity: 0;
+  box-shadow: 0 29px 80px rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+  transform: translateX(-100vw);
+  .space-above-menu {
+    width: 50%;
+    height: 16.5vh;
+    background-color: v.$background-primary;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+  .mobile-menu-container {
+    position: relative;
+    width: 50vw;
+    height: 70vh;
+    background-color: white;
+    .nav__links {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      padding: 13rem 3rem;
+      .links {
+        font-size: 1.7rem;
+        position: relative;
+        font-weight: 600;
+        cursor: default;
+        &::before {
+          content: " ";
+          width: 2rem;
+          height: 0.2rem;
+          background: v.$font-primary;
+          border-radius: 0.5rem;
+          position: absolute;
+          bottom: -0.8rem;
+          opacity: 0;
+          transform: translateX(-1.5rem);
+          transition: all 0.3s ease;
+        }
+        &:hover::before {
+          width: 100%;
+          transform: translateX(0);
+          opacity: 1;
+        }
+      }
+    }
+  }
+}
+.mobile-menu.active {
+  opacity: 1;
+  transform: translateX(0);
+}

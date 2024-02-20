@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 html {
   font-size: 62.5%;
 }
@@ -23,28 +24,92 @@ button {
   font-weight: bold;
 }
 
+@media screen and (min-width: 970px) {
+  .menu-btn {
+    display: none;
+  }
+}
+
 nav {
   background-color: #d8abb7;
   display: flex;
   justify-content: space-between;
-  padding: 2rem 3rem;
+  align-items: center;
+  max-width: 1400px;
+  min-height: 104px;
+  padding: 0 4rem;
 }
 nav ul {
   display: flex;
-  gap: 1rem;
+  gap: 2.5rem;
+  position: relative;
 }
 nav ul a {
-  color: #bf9c7c;
+  color: #4a2a13;
+  font-weight: 700;
+  font-size: 1.8rem;
+  font-family: "Noto Serif";
 }
 nav ul .arrow {
   margin-left: 15px;
+  color: #4a2a13;
 }
 nav ul .submenu {
-  display: flex;
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  background-color: #d8abb7;
   flex-direction: column;
-  margin: 10px 0;
+  padding: 20px;
+  z-index: 1;
 }
 nav .icons-redes a {
-  color: #bf9c7c;
-  margin: 0.7rem;
+  color: #4a2a13;
+  margin: 0.3rem;
+}
+@media screen and (max-width: 970px) {
+  nav ul,
+  nav .logo,
+  nav .icons-redes {
+    display: none;
+  }
+}
+
+.mobile-menu {
+  position: fixed;
+  top: 16.5%;
+  left: 0;
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  z-index: 1;
+  transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+}
+.mobile-menu.active {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+}
+.mobile-menu .mobile-menu-container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.mobile-menu .nav__links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: none;
+  flex-direction: column;
+}
+.mobile-menu.active .nav__links {
+  display: flex;
+}
+.mobile-menu .navlinks__li {
+  margin-bottom: 10px;
+}
+.mobile-menu .links {
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s ease;
 }/*# sourceMappingURL=index.css.map */
