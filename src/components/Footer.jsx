@@ -13,14 +13,11 @@ const Footer = () => {
       </section>
       <section>
         <img src={Whsp} />
-        <a>
-        +54 000 000 0000
-        </a>
+        <a>+54 000 000 0000</a>
       </section>
       <section>
         <img src={Email} />
         <a>amora.aromaterapia@gmail.com</a>
-
       </section>
       <section>
         <img src={Geo} />

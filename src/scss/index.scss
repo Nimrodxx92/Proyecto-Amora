@@ -1,8 +1,9 @@
 //import base
 @use "./base/resets";
 @use "./base/variables";
+@use "./base/mixing";
 
 //import components
 
 @use "./components/navbar";
-@use "./components/mobileNav";
+@use "./components/footer";
