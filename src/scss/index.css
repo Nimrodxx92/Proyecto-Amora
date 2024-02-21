@@ -24,92 +24,74 @@ button {
   font-weight: bold;
 }
 
-@media screen and (min-width: 970px) {
-  .menu-btn {
-    display: none;
-  }
-}
-
-nav {
+.navbar__container {
   background-color: #d8abb7;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   max-width: 1400px;
   min-height: 104px;
   padding: 0 4rem;
 }
-nav ul {
-  display: flex;
+.navbar__container .navbar-nav {
+  flex-grow: 1;
+  justify-content: center;
   gap: 2.5rem;
-  position: relative;
 }
-nav ul a {
+.navbar__container .navbar-nav a {
   color: #4a2a13;
   font-weight: 700;
   font-size: 1.8rem;
   font-family: "Noto Serif";
 }
-nav ul .arrow {
-  margin-left: 15px;
-  color: #4a2a13;
-}
-nav ul .submenu {
-  position: absolute;
-  top: 40px;
-  left: 100px;
+.navbar__container .navbar-nav .dropdown-menu {
   background-color: #d8abb7;
-  flex-direction: column;
-  padding: 20px;
-  z-index: 1;
+  margin: 1.3rem;
+  border: none;
 }
-nav .icons-redes a {
+.navbar__container .navbar-nav .dropdown-menu a {
+  font-weight: 100;
+  font-size: 1.6rem;
+  font-family: "Myriad Pro";
+  padding: 1.3rem 0.4rem;
+}
+.navbar__container .navbar-nav .nav-dropdown-title::after {
+  display: none;
+}
+.navbar__container .navbar-nav .icon-arrow {
+  margin-left: 1.5rem;
+}
+.navbar__container .icons-redes a {
   color: #4a2a13;
-  margin: 0.3rem;
 }
-@media screen and (max-width: 970px) {
-  nav ul,
-  nav .logo,
-  nav .icons-redes {
+
+.navbar .nav-link.dropdown-toggle::after {
+  display: none !important;
+}
+
+/* Responsive tablet and mobile */
+@media (max-width: 1050px) {
+  .navbar__container {
+    justify-content: space-between;
+    align-items: center;
+  }
+  .navbar__container .navbar-nav a {
+    font-size: 1.7rem;
+  }
+  .navbar-toggler {
+    order: -1;
+  }
+  .facebook-icon {
     display: none;
   }
 }
-
-.mobile-menu {
-  position: fixed;
-  top: 16.5%;
-  left: 0;
-  width: 50%;
-  height: 50%;
-  background-color: white;
-  z-index: 1;
-  transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+@media (max-width: 1050px) and (min-width: 700px) and (max-width: 991px) {
+  .logo {
+    margin-left: 100px;
+  }
 }
-.mobile-menu.active {
-  opacity: 1;
-  visibility: visible;
-  transition-delay: 0s;
-}
-.mobile-menu .mobile-menu-container {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-.mobile-menu .nav__links {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: none;
-  flex-direction: column;
-}
-.mobile-menu.active .nav__links {
-  display: flex;
-}
-.mobile-menu .navlinks__li {
-  margin-bottom: 10px;
-}
-.mobile-menu .links {
-  text-decoration: none;
-  font-size: 18px;
-  transition: color 0.3s ease;
+@media (max-width: 1050px) and (max-width: 699px) {
+  .whatsapp-icon,
+  .email-icon {
+    display: none;
+  }
 }/*# sourceMappingURL=index.css.map */
