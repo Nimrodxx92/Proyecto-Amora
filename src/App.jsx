@@ -6,6 +6,7 @@ import Aromas from "./components/Aromas";
 import Nosotras from "./components/Nosotras";
 import Contacto from "./components/Contacto";
 import "./scss/index.scss";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path="/nosotras" element={<Nosotras />} />
         <Route path="/contacto" element={<Contacto />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
