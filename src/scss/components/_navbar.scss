@@ -20,8 +20,10 @@
       }
       .dropdown-menu {
         background-color: v.$background-primary;
-        margin: 1.3rem;
+        margin-top: 1.3rem;
         border: none;
+        left: -11rem;
+        padding: 0.5rem;
         a {
           font-weight: 100;
           font-size: 1.6rem;
@@ -36,6 +38,10 @@
     .icons-redes a {
       color: v.$font-primary;
     }
+  }
+
+  .dropdown-without-caret > .dropdown-toggle::after {
+    display: none;
   }
 
   /* Responsive tablet and mobile */

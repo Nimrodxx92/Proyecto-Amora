@@ -1,0 +1,61 @@
+@use "../base/variables" as v;
+
+.section__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1400px;
+  .layout__container,
+  .layout__container__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    background-color: v.$background-nosotras;
+    padding: 5rem;
+    .layout__text {
+      color: v.$font-primary;
+      font-size: 18px;
+      width: 55%;
+      line-height: 36px;
+      text-align: justify;
+      h2 {
+        font-size: 32px;
+        line-height: 64px;
+      }
+    }
+    .layout__image {
+      width: 40%;
+    }
+    img {
+      width: 100%;
+      border-radius: 8px;
+    }
+  }
+  .layout__container__center {
+    background-color: v.$background-banner;
+  }
+
+  @media screen and (max-width: 1150px) {
+    .layout__container,
+    .layout__container__center {
+      display: flex;
+      flex-direction: column;
+      .layout__text {
+        width: 90%;
+        text-align: center;
+        order: 1;
+      }
+      .layout__image {
+        width: 70%;
+        order: 2;
+        @media (max-width: 699px) {
+          width: 90%;
+        }
+      }
+      .layout__container__center {
+        flex: 1;
+      }
+    }
+  }
+}

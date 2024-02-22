@@ -1,8 +1,4 @@
-import React from "react";
-import Whsp from "../assets/Whatsapp.svg";
-import Ig from "../assets/Instagram.svg";
-import Email from "../assets/Email.svg";
-import Geo from "../assets/GeoLocation.svg";
+import { Ig, Email, Whats, GeoL } from "../assets/icons/icons";
 
 const Footer = () => {
   return (
@@ -12,7 +8,7 @@ const Footer = () => {
         <a>@amora.aromaterapia</a>
       </section>
       <section>
-        <img src={Whsp} />
+        <img src={Whats} />
         <a>+54 000 000 0000</a>
       </section>
       <section>
@@ -20,7 +16,7 @@ const Footer = () => {
         <a>amora.aromaterapia@gmail.com</a>
       </section>
       <section>
-        <img src={Geo} />
+        <img src={GeoL} />
         <a>Lujan, Provincia de Buenos Aires</a>
       </section>
     </footer>

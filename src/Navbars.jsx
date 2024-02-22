@@ -2,16 +2,12 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaAngleDown, FaAngleUp } from "react-icons/fa";
 import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
-import Logo from "./assets/Logo.svg";
-import Whsp from "./assets/Whatsapp.svg";
-import Ig from "./assets/Instagram.svg";
-import Email from "./assets/Email.svg";
-import Fb from "./assets/Facebook.svg";
+import { Ig, Fb, Email, Whats, Logo } from "./assets/icons/icons";
 
 const socialIcons = [
   { name: "Instagram", image: Ig, link: "#", className: "ig-icon" },
   { name: "Facebook", image: Fb, link: "#", className: "facebook-icon" },
-  { name: "Whatsapp", image: Whsp, link: "#", className: "whatsapp-icon" },
+  { name: "Whatsapp", image: Whats, link: "#", className: "whatsapp-icon" },
   { name: "Email", image: Email, link: "#", className: "email-icon" },
 ];
 
@@ -31,7 +27,7 @@ function BasicExample() {
           </Link>
         </div>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav" expanded={expanded}>
+        <Navbar.Collapse id="basic-navbar-nav" expanded={expanded.toString()}>
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/home">
               Home
@@ -41,9 +37,8 @@ function BasicExample() {
             </Nav.Link>
             <NavDropdown
               title={expanded ? <FaAngleUp /> : <FaAngleDown />}
-              id="basic-nav-dropdown"
               onClick={handleToggle}
-              className="custom-nav-dropdown"
+              className="dropdown-without-caret"
             >
               <NavDropdown.Item as={Link} to="/velas">
                 Velas
