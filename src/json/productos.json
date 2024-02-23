@@ -1,0 +1,243 @@
+{
+  "productos": [
+    {
+      "id": "0001",
+      "nombre": "Caramelera",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0004",
+      "nombre": "Corazón",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0005",
+      "nombre": "Estrella Strass",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0007",
+      "nombre": "Olas",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0018",
+      "nombre": "Bubble Big",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0020",
+      "nombre": "Vela de Gel",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0022",
+      "nombre": "Bombe Vaso",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0025",
+      "nombre": "Frasco Hexagonal Small",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0026",
+      "nombre": "Frasco hexagonal Big",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0038",
+      "nombre": "Flor con Tapa",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0040",
+      "nombre": "Flor de Loto",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0041",
+      "nombre": "Fusta Doble",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0042",
+      "nombre": "Mandala",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0043",
+      "nombre": "Cuenco Mate",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0044",
+      "nombre": "Cuenco Mate con Tapa",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0046",
+      "nombre": "Circo",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0047",
+      "nombre": "Anillo",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0068",
+      "nombre": "Vela China",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0074",
+      "nombre": "Gajitos",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0075",
+      "nombre": "Peonía",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0076",
+      "nombre": "Tulipán",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0077",
+      "nombre": "Almeja",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0079",
+      "nombre": "Oso con corazón",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0080",
+      "nombre": "Pimpollo",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0085",
+      "nombre": "Copón XXL",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0102",
+      "nombre": "Arcoiris",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Velas"
+    },
+    {
+      "id": "0100",
+      "nombre": "Difusor",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Difusores"
+    },
+    {
+      "id": "0099",
+      "nombre": "Bruma textil",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Brumas textiles"
+    },
+    {
+      "id": "0036",
+      "nombre": "Flores de tela",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Flores aromáticas"
+    },
+    {
+      "id": "0101",
+      "nombre": "Jabón líquido",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Jabón líquido"
+    },
+    {
+      "id": "0072",
+      "nombre": "Esencias puras",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Esencias"
+    },
+    {
+      "id": "0073",
+      "nombre": "Aceites escenciales",
+      "descripcion": "",
+      "imagen": "",
+      "categoria": "Esencias"
+    },
+    {
+      "id": "0066",
+      "nombre": "Hornillo",
+      "descripcion": "",
+      "imagen": "../src/assets/productos/accesorios/Hornillo-0066.jpg",
+      "imagen2": "../src/assets/productos/accesorios/Hornillo2-0066.jpg",
+      "categoria": "Accesorios"
+    },
+    {
+      "id": "0067",
+      "nombre": "Base de sahumerios",
+      "descripcion": "",
+      "imagen": "../src/assets/productos/accesorios/base-sahumerio.jpg",
+      "categoria": "Accesorios"
+    }
+  ]
+}
