@@ -14,7 +14,7 @@ const AromasDescription = ({ item }) => {
         }
       >
         <div>
-          <img src={urlPath + imagen} alt={nombre} />
+          <img loading="lazy" src={urlPath + imagen} alt={nombre} />
         </div>
 
         <div className="layout__text">
