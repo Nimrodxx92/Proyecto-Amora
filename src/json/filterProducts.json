@@ -1,0 +1,44 @@
+{
+  "filterProducts": [
+    {
+      "imagen": "",
+      "nombre": "Molde",
+      "categoria": "Velas"
+    },
+    {
+      "imagen": "",
+      "nombre": "Base de vidrio",
+      "categoria": "Velas"
+    },
+    {
+      "imagen": "",
+      "nombre": "Base de yeso",
+      "categoria": "Velas"
+    },
+    {
+      "imagen": "",
+      "nombre": "Base de ceramica",
+      "categoria": "Velas"
+    },
+    {
+      "imagen": "",
+      "nombre": "Aceites Esenciales",
+      "categoria": "Esencias"
+    },
+    {
+      "imagen": "",
+      "nombre": "Escencias puras",
+      "categoria": "Esencias"
+    },
+    {
+      "imagen": "",
+      "nombre": "Hornillo",
+      "categoria": "Accesorios"
+    },
+    {
+      "imagen": "",
+      "nombre": "Base de sahumerios",
+      "categoria": "Accesorios"
+    }
+  ]
+}
