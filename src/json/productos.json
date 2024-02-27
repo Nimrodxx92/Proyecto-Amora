@@ -3,7 +3,7 @@
     {
       "id": "0001",
       "nombre": "Caramelera",
-      "descripcion": "",
+      "descripcion": "Nuestra vela con forma de caramelera hace alusión a la infancia y la inocencia de esa época, con detalles que completan la experiencia. Esta vela está hecha a base de cera de soja, de forma artesanal. Ideal para regalar a tu pareja en ese día especial.",
       "imagen": "",
       "categoria": "Velas"
     },
@@ -136,8 +136,8 @@
     {
       "id": "0075",
       "nombre": "Peonía",
-      "descripcion": "",
-      "imagen": "",
+      "descripcion": "Inspirada en la majestuosidad y la elegancia de la peonía, cada detalle de esta vela está meticulosamente esculpido para capturar su belleza y delicadeza. La vela peonía fue creada artesanalmente a base de cera de soja. Ideal para regalar en ese día especial.",
+      "imagen": "../src/assets/productos/velas/molde/a5ea73cadfd92c560221c4cc365fdbba.jpg",
       "categoria": "Velas"
     },
     {
@@ -157,8 +157,8 @@
     {
       "id": "0079",
       "nombre": "Oso con corazón",
-      "descripcion": "",
-      "imagen": "",
+      "descripcion": "Nuestra vela de molde con forma de Oso con Corazón fue creada artesanalmente a base de cera de soja, evocando la ternura y el cariño que emana su figura. Ideal para regalar en ese día especial.",
+      "imagen": "../src/assets/productos/velas/molde/oso-vela.jpg",
       "categoria": "Velas"
     },
     {

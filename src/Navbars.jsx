@@ -29,7 +29,7 @@ function BasicExample() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" expanded={expanded.toString()}>
           <Nav className="me-auto">
-            <Nav.Link as={Link} to="/home">
+            <Nav.Link as={Link} to="/">
               Home
             </Nav.Link>
             <Nav.Link as={Link} to="/productos">
