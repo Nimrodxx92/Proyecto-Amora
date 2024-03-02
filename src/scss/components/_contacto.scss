@@ -1,0 +1,32 @@
+.container__contacto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
+  .contact__firts {
+    text-align: center;
+    h1 {
+      font-size: 36px;
+      margin-bottom: 3rem;
+    }
+    p {
+      font-size: 16px;
+      line-height: 15px;
+    }
+    .icons div {
+      a {
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 1rem;
+      }
+    }
+  }
+  .img-uno {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    img {
+      width: 100%;
+    }
+  }
+}

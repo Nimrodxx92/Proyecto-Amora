@@ -8,6 +8,7 @@
   color: v.$font-primary;
   gap: 5rem;
   padding: 5rem;
+  max-width: 1400px; // Te agregué esto para que cuando se achique toda la pagina con la lupa sea por igual.
   &__left {
     display: flex;
     flex-direction: column;
