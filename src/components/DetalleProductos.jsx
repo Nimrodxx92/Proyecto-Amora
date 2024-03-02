@@ -61,7 +61,7 @@ const DetalleProducto = () => {
                     className="container__img"
                     onClick={() => cambiarProducto(producto)}
                   >
-                    <img src={producto.imagen} alt={producto.nombre} />
+                    <img src={producto.imagen} alt={producto.nombre} />{" "}
                   </div>
                 ))}
               </div>

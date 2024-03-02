@@ -13,8 +13,8 @@ const Productos = () => {
     setProductoSeleccionado(null);
   };
 
-  const handleProductoClick = (producto) => {
-    setProductoSeleccionado(producto);
+  const handleProductoClick = (categoria) => {
+    setFiltroCategoria(categoria);
   };
 
   const categorias = [
@@ -53,7 +53,7 @@ const Productos = () => {
       "Difusores",
       "Bruma Textil",
       "Jabón Líquido",
-      "Flores arómaticas",
+      "Flores aromáticas",
       "Esencias",
       "Accesorios",
       "Kit Personalizados",
@@ -87,12 +87,12 @@ const Productos = () => {
             <div
               className="products__items"
               key={index}
-              onClick={() => handleProductoClick(producto)}
+              onClick={() => handleProductoClick(producto.categoria)}
             >
               {producto && (
                 <Link to={`/productos/${producto.id}`}>
                   <img src={producto.imagen} alt={producto.nombre} />
-                  <p>{producto.nombre}</p>
+                  <p>{producto.subcategoria}</p>
                 </Link>
               )}
             </div>
@@ -105,13 +105,13 @@ const Productos = () => {
             <div
               className="products__items"
               key={index}
-              onClick={() => handleProductoClick(producto)}
+              onClick={() => handleProductoClick(producto.categoria)}
             >
               {producto && (
-                <Link to={`/productos/${producto.id}`}>
+                <div>
                   <img src={producto.imagen} alt={producto.nombre} />
                   <p>{producto.categoria}</p>
-                </Link>
+                </div>
               )}
             </div>
           ))}
