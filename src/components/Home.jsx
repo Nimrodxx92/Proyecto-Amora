@@ -1,8 +1,15 @@
 import data from "../json/productos.json";
 
 const Home = () => {
-  const filteredProducts = data.productos.filter((producto) =>
-    ["0018", "0100", "0046", "0072"].includes(producto.id)
+  const desiredOrder = ["0018", "0100", "0046", "0072"];
+  const additionalProducts = ["0036", "200", "0020", "0075"];
+
+  const orderedProducts = desiredOrder.map((id) =>
+    data.productos.find((producto) => producto.id === id)
+  );
+
+  const additionalFilteredProducts = data.productos.filter((producto) =>
+    additionalProducts.includes(producto.id)
   );
 
   return (
@@ -20,7 +27,7 @@ const Home = () => {
           </div>
         </section>
         <section className="card__products">
-          {filteredProducts.map((producto) => (
+          {orderedProducts.map((producto) => (
             <div key={producto.id} className="card">
               <img src={producto.imagen} alt={producto.nombre} />
               <div className="txt__container">
@@ -39,6 +46,18 @@ const Home = () => {
           <p>Velas aromáticas, brumas textiles, difusores</p>
           <p>y mucho más, todo en un mismo lugar</p>
         </div>
+        <section className="card__products">
+          {additionalFilteredProducts.map((producto) => (
+            <div key={producto.id} className="card">
+              <img src={producto.imagen} alt={producto.nombre} />
+              <div className="txt__container">
+                <h4>{producto.nombre}</h4>
+                <p className="p-category">{producto.categoria}</p>
+                <p>Ref. #{producto.id}</p>
+              </div>
+            </div>
+          ))}
+        </section>
       </main>
     </>
   );
