@@ -5,6 +5,7 @@ import Productos from "./components/Productos";
 import Aromas from "./components/Aromas";
 import Nosotras from "./components/Nosotras";
 import Contacto from "./components/Contacto";
+import DetalleProducto from "./components/DetalleProductos"; // Importa el componente DetalleProducto
 import "./scss/index.scss";
 import Footer from "./components/Footer";
 
@@ -15,6 +16,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/productos" element={<Productos />} />
+        <Route path="/productos/:id" element={<DetalleProducto />} />
         <Route path="/aromas" element={<Aromas />} />
         <Route path="/nosotras" element={<Nosotras />} />
         <Route path="/contacto" element={<Contacto />} />
