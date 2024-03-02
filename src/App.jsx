@@ -5,7 +5,7 @@ import Productos from "./components/Productos";
 import Aromas from "./components/Aromas";
 import Nosotras from "./components/Nosotras";
 import Contacto from "./components/Contacto";
-import DetalleProducto from "./components/DetalleProductos"; // Importa el componente DetalleProducto
+import DetalleProducto from "./components/DetalleProductos";
 import "./scss/index.scss";
 import Footer from "./components/Footer";
 

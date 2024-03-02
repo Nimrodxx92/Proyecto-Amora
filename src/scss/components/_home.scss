@@ -29,6 +29,7 @@
         background-color: v.$background-button;
         padding: 2rem 6rem;
         margin-top: 3rem;
+        border-radius: 8px;
         color: white;
         font-weight: 700;
       }
@@ -42,6 +43,7 @@
   width: 90%;
   margin: auto;
   margin-top: 5rem;
+  padding: 8em 0;
   .card {
     border: 0.5px solid rgb(139, 139, 139);
     border-radius: 8px;
