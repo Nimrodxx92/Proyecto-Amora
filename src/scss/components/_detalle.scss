@@ -1,0 +1,60 @@
+.detalle-container {
+  display: flex;
+  align-items: center;
+  padding: 5rem;
+}
+
+.container__detalle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  .detalle-imagen {
+    width: 20%;
+    margin-right: 2rem;
+  }
+
+  .container__info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    h2 {
+      margin-bottom: 1rem;
+    }
+
+    p {
+      margin-bottom: 0.5rem;
+    }
+
+    button {
+      margin-top: 1rem;
+    }
+  }
+}
+
+.productos-miniatura {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .productos-miniatura-imagenes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .container__img {
+      margin: 0.5rem;
+      cursor: pointer;
+
+      img {
+        width: 50px;
+        height: 75px;
+        border-radius: 5px;
+        object-fit: cover;
+      }
+    }
+  }
+}

@@ -1,64 +1,128 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import productosData from "../json/productos.json";
+import DetalleProducto from "../components/DetalleProductos";
 
 const Productos = () => {
   const [filtroCategoria, setFiltroCategoria] = useState("");
-  const [mostrarCategorias, setMostrarCategorias] = useState(true);
+  const [productoSeleccionado, setProductoSeleccionado] = useState(null);
+  const [productosPorCategoria, setProductosPorCategoria] = useState([]);
+
+  const handleCategoriaClick = (categoria) => {
+    setFiltroCategoria(categoria);
+    setProductoSeleccionado(null);
+  };
+
+  const handleProductoClick = (producto) => {
+    setProductoSeleccionado(producto);
+  };
 
   const categorias = [
-    ...new Set(productosData.productos.map((producto) => producto.categoria)),
+    "Velas",
+    "Difusores",
+    "Bruma Textil",
+    "Jabón Líquido",
+    "Flores arómaticas",
+    "Esencias",
+    "Accesorios",
+    "Kit Personalizados",
   ];
 
-  const handleCategoriaChange = (categoria) => {
-    setFiltroCategoria(categoria);
-  };
+  let productosFiltrados = productosData.productos;
 
-  const handleToggleCategorias = () => {
-    setMostrarCategorias(!mostrarCategorias);
-  };
+  if (filtroCategoria) {
+    productosFiltrados = productosData.productos.filter(
+      (producto) => producto.categoria === filtroCategoria
+    );
+  }
 
-  const productosFiltrados = filtroCategoria
-    ? productosData.productos.filter(
-        (producto) => producto.categoria === filtroCategoria
-      )
-    : productosData.productos;
+  const subcategoriasUnicas = [
+    ...new Set(productosFiltrados.map((producto) => producto.subcategoria)),
+  ];
+
+  const productosPorSubcategoria = subcategoriasUnicas.map((subcategoria) => {
+    const productoSubcategoria = productosFiltrados.find(
+      (producto) => producto.subcategoria === subcategoria
+    );
+    return productoSubcategoria;
+  });
+
+  useEffect(() => {
+    const categorias = [
+      "Velas",
+      "Difusores",
+      "Bruma Textil",
+      "Jabón Líquido",
+      "Flores arómaticas",
+      "Esencias",
+      "Accesorios",
+      "Kit Personalizados",
+    ];
+
+    const productosPorCategoria = categorias.map((categoria) => {
+      const productosCategoria = productosData.productos.find(
+        (producto) => producto.categoria === categoria
+      );
+      return productosCategoria;
+    });
+
+    setProductosPorCategoria(productosPorCategoria);
+  }, []);
 
   return (
-    <>
-      <section className="container__products">
-        <div className="filter__container">
-          <h2 onClick={handleToggleCategorias}>
-            Categorías {mostrarCategorias ? "▲" : "▼"}
-          </h2>
-          {mostrarCategorias && (
-            <ul className="text__category">
-              <li key="todos" onClick={() => handleCategoriaChange("")}>
-                Todos
-              </li>
-              {categorias.map((categoria, index) => (
-                <li
-                  key={index}
-                  onClick={() => handleCategoriaChange(categoria)}
-                >
-                  {categoria}
-                </li>
-              ))}
-            </ul>
-          )}
-        </div>
+    <section className="container__products">
+      <div className="filter__container">
+        <h2>Categorías</h2>
+        <ul className="text__category">
+          {categorias.map((categoria, index) => (
+            <li key={index} onClick={() => handleCategoriaClick(categoria)}>
+              {categoria}
+            </li>
+          ))}
+        </ul>
+      </div>
+      {filtroCategoria && (
         <div className="container__cards">
-          {productosFiltrados.map((producto) => (
-            <div key={producto.id} className="products__items">
-              {producto.imagen && (
-                <img src={producto.imagen} alt={producto.nombre} />
+          {productosPorSubcategoria.map((producto, index) => (
+            <div
+              className="products__items"
+              key={index}
+              onClick={() => handleProductoClick(producto)}
+            >
+              {producto && (
+                <Link to={`/productos/${producto.id}`}>
+                  <img src={producto.imagen} alt={producto.nombre} />
+                  <p>{producto.nombre}</p>
+                </Link>
               )}
-              <h3>{producto.nombre}</h3>
-              <p>{producto.descripcion}</p>
             </div>
           ))}
         </div>
-      </section>
-    </>
+      )}
+      {!filtroCategoria && productosPorCategoria.length > 0 && (
+        <div className="container__cards">
+          {productosPorCategoria.map((producto, index) => (
+            <div
+              className="products__items"
+              key={index}
+              onClick={() => handleProductoClick(producto)}
+            >
+              {producto && (
+                <Link to={`/productos/${producto.id}`}>
+                  <img src={producto.imagen} alt={producto.nombre} />
+                  <p>{producto.categoria}</p>
+                </Link>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
+      <div>
+        {productoSeleccionado && (
+          <DetalleProducto producto={productoSeleccionado} />
+        )}
+      </div>
+    </section>
   );
 };
 
