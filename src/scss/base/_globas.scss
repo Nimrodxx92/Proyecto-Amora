@@ -1,3 +1,9 @@
+@use "../base/variables" as v;
+
 .reverse-imagen {
   flex-direction: row-reverse;
+}
+
+.background-change {
+  background: v.$background-banner !important;
 }

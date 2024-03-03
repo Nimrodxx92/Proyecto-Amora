@@ -1,32 +1,53 @@
+@use "../base/variables" as v;
+
 .container__contacto {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 5rem;
+  background: v.$background-nosotras;
+  font-family: v.$font-text-primary;
+  color: v.$font-primary;
   .contact__firts {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    h1 {
-      font-size: 36px;
+    h1,
+    h2 {
+      font-size: 3.6rem;
       margin-bottom: 3rem;
+      text-wrap: pretty;
+      font-weight: 700;
+      line-height: 200%;
     }
     p {
-      font-size: 16px;
-      line-height: 15px;
+      font-size: 2rem;
+      font-weight: 400;
+      // text-wrap: pretty;
     }
-    .icons div {
-      a {
-        border: 1px solid black;
-        border-radius: 8px;
-        padding: 1rem;
+    .icons {
+      display: block;
+      div {
+        display: block;
+        img,
+        svg {
+          width: 90px;
+        }
+        a {
+          font-size: 2rem;
+          border-radius: 8px;
+          border-top: 4px solid #4a2a13;
+          border-right: 4px solid #4a2a13;
+          border-bottom: 4px solid #4a2a13;
+        }
       }
     }
   }
   .img-uno {
     display: flex;
     justify-content: center;
-    width: 40%;
     img {
       width: 100%;
+      padding: 5rem;
     }
   }
 }
