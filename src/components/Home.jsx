@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import data from "../json/productos.json";
 
 const Home = () => {
@@ -8,9 +9,13 @@ const Home = () => {
     data.productos.find((producto) => producto.id === id)
   );
 
-  const additionalFilteredProducts = data.productos.filter((producto) =>
-    additionalProducts.includes(producto.id)
+  const additionalFilteredProducts = additionalProducts.map((id) =>
+    data.productos.find((producto) => producto.id === id)
   );
+
+  const getProductRoute = (id) => {
+    return `/productos/${id}`;
+  };
 
   return (
     <>
@@ -23,18 +28,22 @@ const Home = () => {
             </h1>
             <p>Velas aromáticas, brumas textiles, difusores</p>
             <p>y mucho más, todo en un mismo lugar</p>
-            <button>Ver más</button>
+            <Link to="/productos">
+              <button>Ver más</button>
+            </Link>
           </div>
         </section>
         <section className="card__products">
           {orderedProducts.map((producto) => (
             <div key={producto.id} className="card">
-              <img src={producto.imagen} alt={producto.nombre} />
-              <div className="txt__container">
-                <h4>{producto.nombre}</h4>
-                <p className="p-category">{producto.categoria}</p>
-                <p>Ref. #{producto.id}</p>
-              </div>
+              <Link to={getProductRoute(producto.id)}>
+                <img src={producto.imagen} alt={producto.nombre} />
+                <div className="txt__container">
+                  <h4>{producto.nombre}</h4>
+                  <p className="p-category">{producto.categoria}</p>
+                  <p>Ref. #{producto.id}</p>
+                </div>
+              </Link>
             </div>
           ))}
         </section>
@@ -49,12 +58,14 @@ const Home = () => {
         <section className="card__products">
           {additionalFilteredProducts.map((producto) => (
             <div key={producto.id} className="card">
-              <img src={producto.imagen} alt={producto.nombre} />
-              <div className="txt__container">
-                <h4>{producto.nombre}</h4>
-                <p className="p-category">{producto.categoria}</p>
-                <p>Ref. #{producto.id}</p>
-              </div>
+              <Link to={getProductRoute(producto.id)}>
+                <img src={producto.imagen} alt={producto.nombre} />
+                <div className="txt__container">
+                  <h4>{producto.nombre}</h4>
+                  <p className="p-category">{producto.categoria}</p>
+                  <p>Ref. #{producto.id}</p>
+                </div>
+              </Link>
             </div>
           ))}
         </section>

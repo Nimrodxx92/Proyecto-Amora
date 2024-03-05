@@ -41,9 +41,10 @@ const DetalleProducto = () => {
             className="detalle-imagen"
           />
           <div className="container__info">
-            <h2>{productoSeleccionado.nombre}</h2>
-            <p>Ref: {productoSeleccionado.id}</p>
-            <p>Subcategoría: {productoSeleccionado.subcategoria}</p>
+            <div>
+              <h2>{productoSeleccionado.nombre}</h2>
+              <p className="id-txt">Ref: #{productoSeleccionado.id}</p>
+            </div>
             {productoSeleccionado.descripcion && (
               <>
                 <p>{productoSeleccionado.descripcion.split(".")[0]}.</p>
@@ -51,7 +52,6 @@ const DetalleProducto = () => {
                 <p>{productoSeleccionado.descripcion.split(".")[2]}</p>
               </>
             )}
-            <button>Comprar</button>
             <div className="productos-miniatura">
               <h3>Modelos disponibles:</h3>
               <div className="productos-miniatura-imagenes">
@@ -66,6 +66,7 @@ const DetalleProducto = () => {
                 ))}
               </div>
             </div>
+            <button className="btn-comprar">Comprar</button>
           </div>
         </div>
       )}

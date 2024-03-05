@@ -7,10 +7,12 @@ const Productos = () => {
   const [filtroCategoria, setFiltroCategoria] = useState("");
   const [productoSeleccionado, setProductoSeleccionado] = useState(null);
   const [productosPorCategoria, setProductosPorCategoria] = useState([]);
+  const [categoriaSeleccionada, setCategoriaSeleccionada] = useState(null);
 
   const handleCategoriaClick = (categoria) => {
     setFiltroCategoria(categoria);
     setProductoSeleccionado(null);
+    setCategoriaSeleccionada(categoria);
   };
 
   const handleProductoClick = (categoria) => {
@@ -22,7 +24,7 @@ const Productos = () => {
     "Difusores",
     "Bruma Textil",
     "Jabón Líquido",
-    "Flores arómaticas",
+    "Flores aromáticas",
     "Esencias",
     "Accesorios",
     "Kit Personalizados",
@@ -75,7 +77,11 @@ const Productos = () => {
         <h2>Categorías</h2>
         <ul className="text__category">
           {categorias.map((categoria, index) => (
-            <li key={index} onClick={() => handleCategoriaClick(categoria)}>
+            <li
+              key={index}
+              onClick={() => handleCategoriaClick(categoria)}
+              className={categoria === categoriaSeleccionada ? "selected" : ""}
+            >
               {categoria}
             </li>
           ))}
