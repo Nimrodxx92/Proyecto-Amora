@@ -6,6 +6,9 @@
   background-color: v.$background-nosotras;
   .filter__container {
     padding: 6rem;
+    @media (max-width: 990px) {
+      display: none;
+    }
     h2 {
       color: v.$font-primary;
       font-size: 22px;
@@ -14,10 +17,17 @@
       margin-top: 1.5rem;
       font-size: 1.4rem;
       text-align: start;
+      font-family: "Myriad Pro";
+      color: v.$font-primary;
       li {
+        cursor: pointer;
         padding: 1rem 0;
         &:hover {
           background-color: white;
+        }
+        &.selected {
+          background-color: v.$background-primary;
+          padding: 1rem 0.3rem;
         }
       }
     }
@@ -33,14 +43,15 @@
       border: 1px solid #ccc;
       border-radius: 5px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
       img {
         width: 100%;
         margin-bottom: 10px;
-        height: 370px;
-        object-fit: cover;
-        object-position: center bottom;
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
+      }
+      p {
+        text-align: center;
+        color: v.$font-primary;
+        font-size: 22px;
       }
       a {
         color: inherit;
@@ -48,6 +59,40 @@
         text-align: center;
         color: v.$font-primary;
         font-size: 22px;
+      }
+    }
+  }
+
+  // Responsive
+  @media (max-width: 1150px) {
+    .container__cards {
+      grid-template-columns: repeat(2, 1fr);
+      width: 60%;
+      @media (max-width: 1100px) {
+        width: 70%;
+        @media (max-width: 990px) {
+          width: 80%;
+          gap: 6rem;
+          @media (max-width: 800px) {
+            width: 90%;
+            @media (max-width: 700px) {
+              width: 55%;
+              grid-template-columns: repeat(1, 1fr);
+              @media (max-width: 650px) {
+                width: 60%;
+                @media (max-width: 600px) {
+                  width: 65%;
+                  @media (max-width: 550px) {
+                    width: 70%;
+                    @media (max-width: 470px) {
+                      width: 85%;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
       }
     }
   }

@@ -5,10 +5,30 @@ import { Container, Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { Ig, Fb, Email, Whats, Logo } from "./assets/icons/icons";
 
 const socialIcons = [
-  { name: "Instagram", image: Ig, link: "#", className: "ig-icon" },
-  { name: "Facebook", image: Fb, link: "#", className: "facebook-icon" },
-  { name: "Whatsapp", image: Whats, link: "#", className: "whatsapp-icon" },
-  { name: "Email", image: Email, link: "#", className: "email-icon" },
+  {
+    name: "Instagram",
+    image: Ig,
+    link: "https://www.instagram.com/amora.aromaterapia/",
+    className: "ig-icon",
+  },
+  {
+    name: "Facebook",
+    image: Fb,
+    link: "https://www.facebook.com/Amora.aromaterapia/",
+    className: "facebook-icon",
+  },
+  {
+    name: "Whatsapp",
+    image: Whats,
+    link: "https://api.whatsapp.com/send?phone=541130596616&text=%C2%A1Hola!%20te%20escribo%20por%20los%20producto%20de%20Amora.%20%F0%9F%8C%B8",
+    className: "whatsapp-icon",
+  },
+  {
+    name: "Email",
+    image: Email,
+    link: "mailto:amora.aromaterapia@gmail.com",
+    className: "email-icon",
+  },
 ];
 
 function BasicExample() {
@@ -78,7 +98,12 @@ function BasicExample() {
         </Navbar.Collapse>
         <div className="icons-redes">
           {socialIcons.map((icon, index) => (
-            <Link key={index} to={icon.link} className={icon.className}>
+            <Link
+              key={index}
+              to={icon.link}
+              target="_blank"
+              className={icon.className}
+            >
               <img src={icon.image} alt={icon.name} />
             </Link>
           ))}

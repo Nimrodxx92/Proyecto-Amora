@@ -1,11 +1,11 @@
 @use "../base/variables" as v;
 
 .home__container {
-  background-image: url("../src/assets/home-fondo.svg");
+  background-image: url("../src/assets/home-fondo.jpg");
   background-size: cover;
-  background-position: center top -50px;
-
+  background-position: center top -120px;
   font-family: v.$font-text-primary;
+  max-width: 1400px;
   .title__container {
     display: flex;
     align-items: flex-start;
@@ -32,6 +32,8 @@
         border-radius: 8px;
         color: white;
         font-weight: 700;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25),
+          0px 4px 4px 0px rgba(0, 0, 0, 0.25);
       }
     }
   }
@@ -50,10 +52,16 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     img {
       height: 300px;
+      width: 100%;
       object-fit: cover;
       object-position: center bottom;
       border-top-left-radius: 5px;
       border-top-right-radius: 5px;
+    }
+    a {
+      display: block;
+      text-decoration: none;
+      color: inherit;
     }
     .txt__container {
       padding: 1.5rem;
@@ -92,5 +100,119 @@
   }
   p {
     font-size: 15px;
+  }
+}
+
+// Responsive
+@media only screen and (max-width: 1150px) {
+  .home__container {
+    background-position: center top -80px;
+    .title__container {
+      padding: 8rem 13rem;
+      h1 {
+        font-size: 64px;
+      }
+      .parrafo-txt {
+        button {
+          padding: 1.8rem 5rem;
+        }
+      }
+    }
+    .card__products {
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 2rem;
+      margin-top: 3rem;
+      padding: 4em 0;
+      .card {
+        img {
+          height: 250px;
+        }
+      }
+    }
+    .subparrafo-txt {
+      padding: 0rem;
+      margin-top: 5rem;
+      h2 {
+        font-size: 50px;
+        margin-bottom: 2rem;
+      }
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+// Responsive
+@media only screen and (max-width: 990px) {
+  .home__container {
+    background-position: center top -60px;
+    .title__container {
+      padding: 8rem 4rem;
+      h1 {
+        font-size: 58px;
+        margin-bottom: 2rem;
+      }
+      .parrafo-txt {
+        button {
+          padding: 1.8rem 5rem;
+          margin-top: 2rem;
+        }
+      }
+    }
+    .card__products {
+      grid-template-columns: repeat(2, 1fr);
+      width: 65%;
+      gap: 5rem;
+      .card {
+        img {
+          height: 310px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .home__container {
+    background-image: url("../src/assets/home-fondo02.jpg");
+    background-size: 100%;
+    .title__container {
+      background-image: url("../src/assets/home-fondo01.jpg");
+      background-size: cover;
+      padding: 7rem 4rem;
+      display: flex;
+      justify-content: center;
+      h1 {
+        font-size: 40px;
+        margin-bottom: 2rem;
+      }
+      .parrafo-txt {
+        font-size: 12px;
+        button {
+          padding: 1.5rem 3.8rem;
+          margin-top: 2rem;
+        }
+      }
+    }
+    .card__products {
+      grid-template-columns: repeat(1, 1fr);
+      width: 60%;
+      gap: 5rem;
+      @media only screen and (min-width: 450px) {
+        width: 55%;
+        @media only screen and (min-width: 500px) {
+          width: 50%;
+          @media only screen and (min-width: 571px) {
+            width: 45%;
+          }
+        }
+        .card {
+          img {
+            height: 290px;
+          }
+        }
+      }
+    }
   }
 }
