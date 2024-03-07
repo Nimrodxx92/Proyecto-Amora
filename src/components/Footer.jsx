@@ -9,7 +9,8 @@ const Footer = () => {
       </section>
       <section>
         <img src={Whats} />
-        <a>+54 000 000 0000</a>
+        <a>+541555221122</a>
+        <a>+540000000000</a>
       </section>
       <section>
         <img src={Email} />

@@ -1,4 +1,4 @@
-import React from "react";
+import PropTypes from "prop-types";
 
 const AromasDescription = ({ item }) => {
   const { id, nombre, descripcion, imagen } = item;
@@ -14,9 +14,8 @@ const AromasDescription = ({ item }) => {
         }
       >
         <div>
-          <img loading="lazy" src={urlPath + imagen} alt={nombre} />
+          <img className="lazy" src={urlPath + imagen} alt={nombre} />
         </div>
-
         <div className="layout__text">
           <h2 className="text-capitalize">{nombre}</h2>
           <p>{descripcion}</p>
@@ -24,6 +23,15 @@ const AromasDescription = ({ item }) => {
       </div>
     </>
   );
+};
+
+AromasDescription.propTypes = {
+  item: PropTypes.shape({
+    id: PropTypes.string.isRequired,
+    nombre: PropTypes.string.isRequired,
+    descripcion: PropTypes.string.isRequired,
+    imagen: PropTypes.string.isRequired,
+  }).isRequired,
 };
 
 export default AromasDescription;
