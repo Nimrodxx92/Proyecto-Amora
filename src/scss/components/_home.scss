@@ -123,9 +123,11 @@
       grid-gap: 2rem;
       margin-top: 3rem;
       padding: 4em 0;
+      width: 50%;
       .card {
         img {
-          height: 250px;
+          height: 300px;
+          width: 100%;
         }
       }
     }
@@ -164,16 +166,19 @@
       grid-template-columns: repeat(2, 1fr);
       width: 65%;
       gap: 5rem;
-      .card {
-        img {
-          height: 310px;
+      @media only screen and (min-width: 720px) {
+        width: 70%;
+        .card {
+          img {
+            height: 310px;
+          }
         }
       }
     }
   }
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 770px) {
   .home__container {
     background-image: url("../src/assets/home-fondo02.jpg");
     background-size: 100%;
@@ -197,7 +202,6 @@
     }
     .card__products {
       grid-template-columns: repeat(1, 1fr);
-      width: 60%;
       gap: 5rem;
       @media only screen and (min-width: 450px) {
         width: 55%;

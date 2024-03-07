@@ -7,6 +7,7 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: v.$background-primary;
+  padding: 1rem;
   /*  position: absolute;
   bottom: 0; */ // LO COMENTO SOLO PARA QUE SE ME VEA BIEN, YA CON EL COMPONENTE EN APP QUEDA ABAJO DE TODO. :)
   width: 100%;
@@ -23,6 +24,7 @@ footer {
     img,
     a {
       cursor: pointer;
+      margin: 5px;
     }
   }
 

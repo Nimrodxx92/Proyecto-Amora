@@ -1,7 +1,7 @@
 @use "../base/variables" as v;
 
 .container__contacto {
-  padding: 5rem;
+  padding: 1rem;
   background: v.$background-nosotras;
   font-family: v.$font-text-primary;
   color: v.$font-primary;
@@ -14,30 +14,33 @@
     h1,
     h2 {
       font-size: 3.6rem;
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
       text-wrap: pretty;
       font-weight: 700;
       line-height: 200%;
     }
     p {
-      font-size: 2rem;
+      font-size: 1.6rem;
       font-weight: 400;
-      // text-wrap: pretty;
+      margin: 0;
     }
     .icons {
-      display: block;
-      div {
-        display: block;
-        img,
-        svg {
-          width: 90px;
-        }
-        a {
-          font-size: 2rem;
-          border-radius: 8px;
-          border-top: 4px solid #4a2a13;
-          border-right: 4px solid #4a2a13;
-          border-bottom: 4px solid #4a2a13;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 1.5rem;
+      margin-top: 3.5rem;
+      margin-bottom: 3.5rem;
+      .container-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #4a2a13;
+        border-radius: 8px;
+        width: 65%;
+        img {
+          width: 50px;
         }
       }
     }
