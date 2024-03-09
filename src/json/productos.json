@@ -313,7 +313,7 @@
       "id": "204",
       "nombre": "Kit personalizados",
       "descripcion": "Tenemos variedad de kits personalizados, ideales para regalar a otros o para vos mismo. Los podés personalizar en cuanto a los productos que querés ponerle, y la fragancia que elegís para los mismos. ¡Podés combinarlos como vos quieras! De la presentación nos encargamos nosotras.",
-      "imagen": "../assets/productos/kits/k04.png",
+      "imagen": "../src/assets/productos/kits/k04.png",
       "categoria": "Kit Personalizados",
       "subcategoria": "Kit Personalizados"
     },
@@ -321,7 +321,7 @@
       "id": "206",
       "nombre": "Kit personalizados",
       "descripcion": "Tenemos variedad de kits personalizados, ideales para regalar a otros o para vos mismo. Los podés personalizar en cuanto a los productos que querés ponerle, y la fragancia que elegís para los mismos. ¡Podés combinarlos como vos quieras! De la presentación nos encargamos nosotras.",
-      "imagen": "../assets/productos/kits/k06.jpg",
+      "imagen": "../src/assets/productos/kits/k06.jpg",
       "categoria": "Kit Personalizados",
       "subcategoria": "Kit Personalizados"
     },
@@ -329,7 +329,7 @@
       "id": "207",
       "nombre": "Kit personalizados",
       "descripcion": "Tenemos variedad de kits personalizados, ideales para regalar a otros o para vos mismo. Los podés personalizar en cuanto a los productos que querés ponerle, y la fragancia que elegís para los mismos. ¡Podés combinarlos como vos quieras! De la presentación nos encargamos nosotras.",
-      "imagen": "../assets/productos/kits/k07.png",
+      "imagen": "../Amora/src/assets/productos/kits/k07.png",
       "categoria": "Kit Personalizados",
       "subcategoria": "Kit Personalizados"
     }
