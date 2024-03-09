@@ -1,5 +1,7 @@
 import { Ig, Email, Whats, Fb } from "../assets/icons/icons";
-import { img1, img2, img3 } from "../../public/contacto/contacto";
+import img1 from "../../public/contacto/contacto-1";
+import img2 from "../../public/contacto/contacto-2";
+import img3 from "../../public/contacto/contacto-3";
 
 const Contacto = () => {
   return (
