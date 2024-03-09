@@ -23,7 +23,7 @@ const Aromas = () => {
           </div>
         </div>
         <div className="img-banner">
-          <img src="../../../public/aromas/banner.png" alt="banner de aromas" />
+          <img src="../../../aromas/banner.png" alt="banner de aromas" />
         </div>
       </section>
       <section className="section__container">
