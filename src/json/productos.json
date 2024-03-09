@@ -4,8 +4,8 @@
       "id": "0001",
       "nombre": "Caramelera",
       "descripcion": "Nuestra vela con forma de caramelera hace alusión a la infancia y la inocencia de esa época, con detalles que completan la experiencia. Esta vela está hecha a base de cera de soja, de forma artesanal. Ideal para regalar a tu pareja en ese día especial.",
-      "imagen": "../src/assets/productos/velas/envase-vidrio/caramelera01.jpg",
-      "imagen2": "../src/assets/productos/velas/envase-vidrio/caramelera02.jpg",
+      "imagen": "../assets/productos/velas/envase-vidrio/caramelera01.jpg",
+      "imagen2": "../assets/productos/velas/envase-vidrio/caramelera02.jpg",
       "categoria": "Velas",
       "subcategoria": "Base de vidrio"
     },
@@ -13,7 +13,7 @@
       "id": "0004",
       "nombre": "Corazón",
       "descripcion": "Esta vela con forma de corazón emana ternura y amor, iluminando todos los espacios donde la coloques. Está hecha a base de cera de soja y elaborada artesanalmente. Ya sea como un regalo especial para alguien querido o como un toque de amor en tu propio hogar, esta vela con forma de corazón es la expresión perfecta de afecto y cariño.",
-      "imagen": "../src/assets/productos/velas/yeso/Corazón0004.jpg",
+      "imagen": "../assets/productos/velas/yeso/Corazón0004.jpg",
       "categoria": "Velas",
       "subcategoria": "Envase de yeso"
     },
@@ -21,7 +21,7 @@
       "id": "0005",
       "nombre": "Estrella Strass",
       "descripcion": "Nuestra vela con forma de estrella y envase de yeso fue elaborada artesanalmente, con base de cera de soja. El detalle del strass agrega un toque de encanto y sofisticación a cualquier ambiente. Esta vela es ideal para regalar a quien quieras.",
-      "imagen": "../src/assets/productos/velas/yeso/EstrellaStrass0005.jpg",
+      "imagen": "../assets/productos/velas/yeso/EstrellaStrass0005.jpg",
       "categoria": "Velas",
       "subcategoria": "Envase de yeso"
     },
@@ -29,7 +29,7 @@
       "id": "0007",
       "nombre": "Olas",
       "descripcion": "Nuestra vela de olas captura la esencia del mar, haciendo tributo a su magnificencia. Moldeada con curvas suaves como el movimiento de las olas, esta vela infunde tu espacio con una sensación de frescura y vitalidad. Nuestras velas son elaboradas artesanalmente, a partir de cera de soja.",
-      "imagen": "../src/assets/productos/velas/yeso/Olas0007.jpg",
+      "imagen": "../assets/productos/velas/yeso/Olas0007.jpg",
       "categoria": "Velas",
       "subcategoria": "Envase de yeso"
     },
@@ -37,7 +37,7 @@
       "id": "0018",
       "nombre": "Bubble Big",
       "descripcion": "Nuestra vela de molde con forma de burbujas fue elaborada artesanalmente, a base de cera de soja. Inspirada en la alegría de las burbujas, combinado con la elegancia de un cubo simétrico. Ideal para regalar en ese día especial.",
-      "imagen": "../src/assets/productos/velas/molde/BubbleBig-0018.jpg",
+      "imagen": "../assets/productos/velas/molde/BubbleBig-0018.jpg",
       "categoria": "Velas",
       "subcategoria": "Molde"
     },
@@ -45,7 +45,7 @@
       "id": "0020",
       "nombre": "Vela de Gel",
       "descripcion": "Nuestra vela de gel en un pequeño vaso de shot es perfecta para una ocasión íntima, por su luz tenue y especial. Incorporamos algunos elementos a la misma, para que tengas la experiencia inmersiva en el bosque que buscamos.",
-      "imagen": "../src/assets/productos/velas/yeso/VeladeGel0020.jpg",
+      "imagen": "../assets/productos/velas/yeso/VeladeGel0020.jpg",
       "categoria": "Velas",
       "subcategoria": "Base de vidrio"
     },
@@ -53,7 +53,7 @@
       "id": "0022",
       "nombre": "Bombe Vaso",
       "descripcion": "Nuestra vela Bombe Vaso es otra de las alternativas de velones grandes que tenés disponible en nuestra tienda. La vela está hecha con cera de soja, de forma artesanal, y el envase tiene una segunda vida para que le des el uso que quieras. Ideal para regalar a alguien en su día especial.",
-      "imagen": "../src/assets/productos/velas/envase-vidrio/BombeVaso0022.jpg",
+      "imagen": "../assets/productos/velas/envase-vidrio/BombeVaso0022.jpg",
       "categoria": "Velas",
       "subcategoria": "Base de vidrio"
     },
@@ -61,7 +61,7 @@
       "id": "0025",
       "nombre": "Frasco Hexagonal Small",
       "descripcion": "Nuestra vela en frasco hexagonal small es una pequeña maravilla, hecha a mano con cera de soja e infundida con el aroma que más te guste. Su pequeño envase da ternura a cualquiera, y su tapa permite el apagado de la vela de forma correcta.",
-      "imagen": "../src/assets/productos/velas/envase-vidrio/FrascoHexagonalSmall 0025.JPG",
+      "imagen": "../assets/productos/velas/envase-vidrio/FrascoHexagonalSmall 0025.JPG",
       "categoria": "Velas",
       "subcategoria": "Base de vidrio"
     },
@@ -69,7 +69,7 @@
       "id": "0026",
       "nombre": "Frasco hexagonal Big",
       "descripcion": "Nuestra vela en frasco hexagonal big está hecha de forma artesanal, con cera de soja. La podemos infundir con el aroma que vos quieras, y la tapa metálica permite el apagado correcto de la misma. Esta vela conforma el regalo ideal para quien vos quieras.",
-      "imagen": "../src/assets/productos/velas/envase-vidrio/Frasco-hexagonalBig0026.jpg",
+      "imagen": "../assets/productos/velas/envase-vidrio/Frasco-hexagonalBig0026.jpg",
       "categoria": "Velas",
       "subcategoria": "Base de vidrio"
     },
@@ -77,7 +77,7 @@
       "id": "0038",
       "nombre": "Flor con Tapa",
       "descripcion": "Esta vela está inspirada en la belleza efímera de las flores, y con su envase artesanal añade un toque de naturaleza a cualquier ambiente. Además, su tapa permite apagar la vela de forma correcta. Nuestras velas están elaboradas artesanalmente, a base de cera de soja. ",
-      "imagen": "../src/assets/productos/velas/yeso/FlorconTapa0038.jpg",
+      "imagen": "../assets/productos/velas/yeso/FlorconTapa0038.jpg",
       "categoria": "Velas",
       "subcategoria": "Envase de yeso"
     },
@@ -85,7 +85,7 @@
       "id": "0040",
       "nombre": "Flor de Loto",
       "descripcion": "Esta vela está inspirada en la pureza y la belleza de esta flor. Esta vela de flor de loto ilumina cualquier espacio, recordándote la importancia de la renovación y el equilibrio en la vida diaria. Hecha a base de cera de soja y elaborada artesanalmente. Ideal para aromatizar el espacio que más te guste.",
-      "imagen": "../src/assets/productos/velas/yeso/FlordeLoto0040.jpg",
+      "imagen": "../assets/productos/velas/yeso/FlordeLoto0040.jpg",
       "categoria": "Velas",
       "subcategoria": "Envase de yeso"
     },
@@ -93,7 +93,7 @@
       "id": "0041",
       "nombre": "Fusta Doble",
       "descripcion": "Nuestra vela de fusta doble es ideal para tu hogar, y para compartir con alguien especial. Cuando enciendes ambas mechas, la cálida luz que emiten crea un ambiente acogedor y relajante, con la fragancia que elijas para ella. Puede servir de elemento decorativo también. Es una vela elaborada artesanalmente, a base de cera de soja.",
-      "imagen": "../src/assets/productos/velas/yeso/FustaDoble0041.jpg",
+      "imagen": "../assets/productos/velas/yeso/FustaDoble0041.jpg",
       "categoria": "Velas",
       "subcategoria": "Envase de yeso"
     },
@@ -101,7 +101,7 @@
       "id": "0042",
       "nombre": "Mandala",
       "descripcion": "El envase de esta vela, inspirado en la simetría y belleza de la antigua forma de arte del mandala, invita a la conexión con la espiritualidad y el equilibrio dentro de cualquier espacio. Su aroma y luminosidad promueven la introspección y la reflexión. Esta vela fue elaborada con cera de soja, de forma artesanal.",
-      "imagen": "../src/assets/productos/velas/yeso/Mandala-0042.jpg",
+      "imagen": "../assets/productos/velas/yeso/Mandala-0042.jpg",
       "categoria": "Velas",
       "subcategoria": "Envase de yeso"
     },
@@ -109,7 +109,7 @@
       "id": "0043",
       "nombre": "Cuenco Mate",
       "descripcion": "Nuestra vela de cuenco de mate tiene un tamaño ideal para hacer un regalo a quien más quieras. Su forma hace honor a nuestras raíces argentinas, y su tapa permite que puedas apagar tu vela de la forma correcta. La vela está elaborada artesanalmente, con cera de soja. Ideal para regalar a tu pareja en ese día especial.",
-      "imagen": "../src/assets/productos/velas/yeso/Cuenco-Mate0043.JPG",
+      "imagen": "../assets/productos/velas/yeso/Cuenco-Mate0043.JPG",
       "categoria": "Velas",
       "subcategoria": "Envase de yeso"
     },
@@ -117,7 +117,7 @@
       "id": "0044",
       "nombre": "Cuenco Mate con Tapa",
       "descripcion": "Nuestra vela de cuenco de mate con tapa tiene un tamaño ideal para hacer un regalo a quien más quieras. Su forma hace honor a nuestras raíces argentinas, y su tapa permite que puedas apagar tu vela de la forma correcta. La vela está elaborada artesanalmente, con cera de soja. Ideal para regalar a tu pareja en ese día especial.",
-      "imagen": "../src/assets/productos/velas/yeso/CuencoMateconTapa0044.jpg",
+      "imagen": "../assets/productos/velas/yeso/CuencoMateconTapa0044.jpg",
       "categoria": "Velas",
       "subcategoria": "Envase de yeso"
     },
@@ -125,7 +125,7 @@
       "id": "0046",
       "nombre": "Circo",
       "descripcion": "Nuestra vela con base de yeso hace alusión al circo y su majestuosa carpa, la cual actúa como tapa de la misma y te permite apagar tus velas de la manera correcta. Ideal para regalar a tu pareja en ese día especial.",
-      "imagen": "../src/assets/productos/velas/yeso/circo046.jpg",
+      "imagen": "../assets/productos/velas/yeso/circo046.jpg",
       "categoria": "Velas",
       "subcategoria": "Envase de yeso"
     },
@@ -133,7 +133,7 @@
       "id": "0047",
       "nombre": "Anillo",
       "descripcion": "Nuestra vela con base de yeso en forma de anillo le da un toque de brillo y frescura al espacio donde la pongas, sumado al aroma que vos elijas. Es una vela pequeña, hecha a base de cera de soja, elaborada de forma artesanal. Es un regalo ideal para reconectar con el niño interior.",
-      "imagen": "../src/assets/productos/velas/yeso/Anillo0047.jpg",
+      "imagen": "../assets/productos/velas/yeso/Anillo0047.jpg",
       "categoria": "Velas",
       "subcategoria": "Envase de yeso"
     },
@@ -141,7 +141,7 @@
       "id": "0068",
       "nombre": "Vela China",
       "descripcion": "Nuestra vela china con envase de cerámica pintada a mano, cuenta con un diseño florar hermoso y delicado, nuestra vela está hecha a base de cera de soja y podes elegir el aroma de tu preferencia. Ideal para regalar en ese día especial.",
-      "imagen": "../src/assets/productos/velas/envase-ceramica/Vela-China-0068.jpg",
+      "imagen": "../assets/productos/velas/envase-ceramica/Vela-China-0068.jpg",
       "categoria": "Velas",
       "subcategoria": "Envase de cerámica"
     },
@@ -149,7 +149,7 @@
       "id": "0074",
       "nombre": "Gajitos",
       "descripcion": "Nuestra vela en forma de gajitos le da un toque de elegancia y frescura a cualquier espacio que elijas, y su forma simétrica presenta calma a quien quiera verla. Esta vela es elaborada artesanalmente, con base de cera de soja. Ideal para regalar en ese día especial.",
-      "imagen": "../src/assets/productos/velas/molde/Gajitos0074.jpg",
+      "imagen": "../assets/productos/velas/molde/Gajitos0074.jpg",
       "categoria": "Velas",
       "subcategoria": "Molde"
     },
@@ -157,7 +157,7 @@
       "id": "0075",
       "nombre": "Peonía",
       "descripcion": "Inspirada en la majestuosidad y la elegancia de la peonía, cada detalle de esta vela está meticulosamente esculpido para capturar su belleza y delicadeza. La vela peonía fue creada artesanalmente a base de cera de soja. Ideal para regalar en ese día especial.",
-      "imagen": "../src/assets/productos/velas/molde/a5ea73cadfd92c560221c4cc365fdbba.jpg",
+      "imagen": "../assets/productos/velas/molde/a5ea73cadfd92c560221c4cc365fdbba.jpg",
       "categoria": "Velas",
       "subcategoria": "Molde"
     },
@@ -165,7 +165,7 @@
       "id": "0076",
       "nombre": "Tulipán",
       "descripcion": "Nuestra vela de molde con forma de tulipán evoca la frescura y luminosidad que estas flores traen consigo. Una vela grande, elaborada artesanalmente con base de cera de soja, que revitaliza y hace conectar con la naturaleza. Ideal para regalar en ese día especial.",
-      "imagen": "../src/assets/productos/velas/molde/Tulipán0076.jpg",
+      "imagen": "../assets/productos/velas/molde/Tulipán0076.jpg",
       "categoria": "Velas",
       "subcategoria": "Molde"
     },
@@ -173,7 +173,7 @@
       "id": "0077",
       "nombre": "Almeja",
       "descripcion": "Nuestra vela de molde con forma de almeja fué diseñada para los amantes de la naturaleza y el mar, aludiendo a las pequeñas formaciones que se pueden encontrar en sus orillas. La vela fue elaborada de forma artesanal, a base de cera de soja. Ideal para regalar en ese día especial.",
-      "imagen": "../src/assets/productos/velas/molde/Almeja0077.jpg",
+      "imagen": "../assets/productos/velas/molde/Almeja0077.jpg",
       "categoria": "Velas",
       "subcategoria": "Molde"
     },
@@ -181,7 +181,7 @@
       "id": "0079",
       "nombre": "Oso con corazón",
       "descripcion": "Nuestra vela de molde con forma de Oso con Corazón fue creada artesanalmente a base de cera de soja, evocando la ternura y el cariño que emana su figura. Ideal para regalar en ese día especial.",
-      "imagen": "../src/assets/productos/velas/molde/oso-vela.jpg",
+      "imagen": "../assets/productos/velas/molde/oso-vela.jpg",
       "categoria": "Velas",
       "subcategoria": "Molde"
     },
@@ -189,7 +189,7 @@
       "id": "0080",
       "nombre": "Pimpollo",
       "descripcion": "Nuestra vela de molde con forma de pimpollo es elaborada a base de cera de soja, de forma artesanal. Esta vela está inspirada en el proceso de crecimiento de la pequeña flor hasta llegar a todo su esplendor. Ideal para regalar en ese día especial.",
-      "imagen": "../src/assets/productos/velas/molde/Pimpollo0080.jpg",
+      "imagen": "../assets/productos/velas/molde/Pimpollo0080.jpg",
       "categoria": "Velas",
       "subcategoria": "Molde"
     },
@@ -197,7 +197,7 @@
       "id": "0085",
       "nombre": "Copón XXL",
       "descripcion": "Nuestra vela en formato de copón XXL te permite tener el ambiente que más te guste, aromatizado por mucho tiempo. Tiene una gran capacidad, y está decorado por elementos secos que le dan el toque especial. La vela está hecha con cera de soja, de forma artesanal.",
-      "imagen": "../src/assets/productos/velas/envase-vidrio/CopónXXL0085.jpg",
+      "imagen": "../assets/productos/velas/envase-vidrio/CopónXXL0085.jpg",
       "categoria": "Velas",
       "subcategoria": "Base de vidrio"
     },
@@ -205,7 +205,7 @@
       "id": "0102",
       "nombre": "Arcoiris",
       "descripcion": "Nuestra vela de molde con forma de arcoíris fue elaborada a base de cera de soja, de forma artesanal. La magia y el encanto de esta forma hacen que esta vela sea especial, sumada a la fragancia que elijas ponerle. Ideal para regalar en ese día especial.",
-      "imagen": "../src/assets/productos/velas/envase-vidrio/Arcoiris-0102.jpg",
+      "imagen": "../assets/productos/velas/envase-vidrio/Arcoiris-0102.jpg",
       "categoria": "Velas",
       "subcategoria": "Molde"
     },
@@ -213,9 +213,9 @@
       "id": "0100",
       "nombre": "Difusores",
       "descripcion": "Nuestros difusores incluyen las varillas para que puedas perfumar el ambiente que desees. Tenemos nuestros modelos en envase de vidrio transparente, o ámbar. También vienen envases de plástico, de 100cc, 150cc, 200cc o 250cc.",
-      "imagen": "../src/assets/productos/difusores/difusor03.jpg",
-      "imagen2": "../src/assets/productos/difusores/difusor02.jpg",
-      "imagen3": "../src/assets/productos/difusores/difusor01.jpg",
+      "imagen": "../assets/productos/difusores/difusor03.jpg",
+      "imagen2": "../assets/productos/difusores/difusor02.jpg",
+      "imagen3": "../assets/productos/difusores/difusor01.jpg",
       "categoria": "Difusores",
       "subcategoria": "Difusores"
     },
@@ -223,7 +223,7 @@
       "id": "0098",
       "nombre": "Bruma textil",
       "descripcion": "Nuestras brumas textiles aportan frescura a todas tus prendas, ropa de cama, cortinas y más, creando un ambiente acogedor y sereno en tu hogar. Disponibles en recipientes de vidrio transparente o ámbar, así como prácticos envases PET con gatillo, nuestras brumas vienen en presentaciones de 100cc, 150cc, 200cc y 250cc para adaptarse a tus necesidades.",
-      "imagen": "../src/assets/productos/bruma-textil/bruma02.jpg",
+      "imagen": "../assets/productos/bruma-textil/bruma02.jpg",
       "categoria": "Bruma Textil",
       "subcategoria": "Bruma Textil"
     },
@@ -231,7 +231,7 @@
       "id": "0099",
       "nombre": "Bruma textil",
       "descripcion": "Nuestras brumas textiles aportan frescura a todas tus prendas, ropa de cama, cortinas y más, creando un ambiente acogedor y sereno en tu hogar. Disponibles en recipientes de vidrio transparente o ámbar, así como prácticos envases PET con gatillo, nuestras brumas vienen en presentaciones de 100cc, 150cc, 200cc y 250cc para adaptarse a tus necesidades.",
-      "imagen": "../src/assets/productos/bruma-textil/bruma01.jpg",
+      "imagen": "../assets/productos/bruma-textil/bruma01.jpg",
       "categoria": "Bruma Textil",
       "subcategoria": "Bruma Textil"
     },
@@ -239,7 +239,7 @@
       "id": "0036",
       "nombre": "Flores de tela",
       "descripcion": "Nuestros ramos de flores se personalizan completamente según tus preferencias, confeccionados artesanalmente en una variedad de telas como tusor, lienzo y telas engomadas. Ofrecemos las flores en diversas tamaños: las grandes varían de 20 a 25 cm, las medianas tienen aproximadamente 15 cm y las pequeñas, 10 cm.",
-      "imagen": "../src/assets/productos/flores/RamoFloresTela0036.JPG",
+      "imagen": "../assets/productos/flores/RamoFloresTela0036.JPG",
       "categoria": "Flores aromáticas",
       "subcategoria": "Flores aromáticas"
     },
@@ -247,7 +247,7 @@
       "id": "0101",
       "nombre": "Jabón líquido",
       "descripcion": "Nuestros jabones líquidos dejan tus manos limpias y perfumadas, a cualquier hora del día. Tenemos nuestros modelos en envase de vidrio transparente, o ámbar. También vienen envases de plástico, de 100cc, 150cc, 200cc o 250cc.",
-      "imagen": "../src/assets/productos/jabon-líquido/jabonliquido.jpg",
+      "imagen": "../assets/productos/jabon-líquido/jabonliquido.jpg",
       "categoria": "Jabón Líquido",
       "subcategoria": "Jabón Líquido"
     },
@@ -255,8 +255,8 @@
       "id": "0072",
       "nombre": "Esencias puras",
       "descripcion": "Descubre el poder de la naturaleza con nuestra colección de esencias puras, cada una cuidadosamente seleccionada por sus efectos terapéuticos.",
-      "imagen": "../src/assets/productos/esencias/Esencias-puras0072-02.jpg",
-      "imagen2": "../src/assets/productos/esencias/Esencias-puras0072-1.jpg",
+      "imagen": "../assets/productos/esencias/Esencias-puras0072-02.jpg",
+      "imagen2": "../assets/productos/esencias/Esencias-puras0072-1.jpg",
       "categoria": "Esencias",
       "subcategoria": "Esencias puras"
     },
@@ -264,7 +264,7 @@
       "id": "0073",
       "nombre": "Aceites escenciales",
       "descripcion": "Estos divinos aceites esenciales puros, son la esencia detrás de todos nuestros productos, ofreciéndote la libertad de personalizar la fragancia de tus espacios y objetos. Elige entre aromas florales o notas inspiradas en la naturaleza; nuestras esencias están diseñadas para crear una conexión profunda y personal contigo.",
-      "imagen": "../src/assets/productos/esencias/aceite-esenciales.jpg",
+      "imagen": "../assets/productos/esencias/aceite-esenciales.jpg",
       "categoria": "Esencias",
       "subcategoria": "Aceites esenciales"
     },
@@ -272,8 +272,8 @@
       "id": "0066",
       "nombre": "Hornillo",
       "descripcion": "Nuestros hornillos son elaborados artesanalmente, y son ideales para colocar un par de gotas de tu esencia favorita, prender una pequeña vela en su interior y disfrutar del mejor aroma en tu hogar. El hornillo es fabricado en dos colores, blanco y crema.",
-      "imagen": "../src/assets/productos/accesorios/Hornillo-0066.jpg",
-      "imagen2": "../src/assets/productos/accesorios/Hornillo2-0066.jpg",
+      "imagen": "../assets/productos/accesorios/Hornillo-0066.jpg",
+      "imagen2": "../assets/productos/accesorios/Hornillo2-0066.jpg",
       "categoria": "Accesorios",
       "subcategoria": "Hornillo"
     },
@@ -281,7 +281,7 @@
       "id": "0067",
       "nombre": "Base de sahumerios",
       "descripcion": "Nuestras bases de sahumerios son elaboradas de manera artesanal a base de cerámica pintada a mano, para que puedas disfrutar del hermoso aroma y energía de tu sahumerio favorito. La base de sahumerio es fabricada en dos colores, blanco y crema.",
-      "imagen": "../src/assets/productos/accesorios/base-sahumerio.jpg",
+      "imagen": "../assets/productos/accesorios/base-sahumerio.jpg",
       "categoria": "Accesorios",
       "subcategoria": "Base de sahumerios"
     },
@@ -289,7 +289,7 @@
       "id": "200",
       "nombre": "Kit personalizados",
       "descripcion": "Tenemos variedad de kits personalizados, ideales para regalar a otros o para vos mismo. Los podés personalizar en cuanto a los productos que querés ponerle, y la fragancia que elegís para los mismos. ¡Podés combinarlos como vos quieras! De la presentación nos encargamos nosotras.",
-      "imagen": "../src/assets/productos/kits/k01.jpg",
+      "imagen": "../assets/productos/kits/k01.jpg",
       "categoria": "Kit Personalizados",
       "subcategoria": "Kit Personalizados"
     },
@@ -297,7 +297,7 @@
       "id": "201",
       "nombre": "Kit personalizados",
       "descripcion": "Tenemos variedad de kits personalizados, ideales para regalar a otros o para vos mismo. Los podés personalizar en cuanto a los productos que querés ponerle, y la fragancia que elegís para los mismos. ¡Podés combinarlos como vos quieras! De la presentación nos encargamos nosotras.",
-      "imagen": "../src/assets/productos/kits/k02.png",
+      "imagen": "../assets/productos/kits/k02.png",
       "categoria": "Kit Personalizados",
       "subcategoria": "Kit Personalizados"
     },
@@ -305,7 +305,7 @@
       "id": "203",
       "nombre": "Kit personalizados",
       "descripcion": "Tenemos variedad de kits personalizados, ideales para regalar a otros o para vos mismo. Los podés personalizar en cuanto a los productos que querés ponerle, y la fragancia que elegís para los mismos. ¡Podés combinarlos como vos quieras! De la presentación nos encargamos nosotras.",
-      "imagen": "../src/assets/productos/kits/k03.png",
+      "imagen": "../assets/productos/kits/k03.png",
       "categoria": "Kit Personalizados",
       "subcategoria": "Kit Personalizados"
     },
@@ -313,7 +313,7 @@
       "id": "204",
       "nombre": "Kit personalizados",
       "descripcion": "Tenemos variedad de kits personalizados, ideales para regalar a otros o para vos mismo. Los podés personalizar en cuanto a los productos que querés ponerle, y la fragancia que elegís para los mismos. ¡Podés combinarlos como vos quieras! De la presentación nos encargamos nosotras.",
-      "imagen": "../src/assets/productos/kits/k04.png",
+      "imagen": "../assets/productos/kits/k04.png",
       "categoria": "Kit Personalizados",
       "subcategoria": "Kit Personalizados"
     },
@@ -321,7 +321,7 @@
       "id": "206",
       "nombre": "Kit personalizados",
       "descripcion": "Tenemos variedad de kits personalizados, ideales para regalar a otros o para vos mismo. Los podés personalizar en cuanto a los productos que querés ponerle, y la fragancia que elegís para los mismos. ¡Podés combinarlos como vos quieras! De la presentación nos encargamos nosotras.",
-      "imagen": "../src/assets/productos/kits/k06.jpg",
+      "imagen": "../assets/productos/kits/k06.jpg",
       "categoria": "Kit Personalizados",
       "subcategoria": "Kit Personalizados"
     },
@@ -329,7 +329,7 @@
       "id": "207",
       "nombre": "Kit personalizados",
       "descripcion": "Tenemos variedad de kits personalizados, ideales para regalar a otros o para vos mismo. Los podés personalizar en cuanto a los productos que querés ponerle, y la fragancia que elegís para los mismos. ¡Podés combinarlos como vos quieras! De la presentación nos encargamos nosotras.",
-      "imagen": "../src/assets/productos/kits/k07.png",
+      "imagen": "../assets/productos/kits/k07.png",
       "categoria": "Kit Personalizados",
       "subcategoria": "Kit Personalizados"
     }
