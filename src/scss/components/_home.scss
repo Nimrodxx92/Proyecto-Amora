@@ -1,7 +1,7 @@
 @use "../base/variables" as v;
 
 .home__container {
-  background-image: url("../src/assets/home-fondo.jpg");
+  background-image: url("../assets/home-fondo.jpg");
   background-size: cover;
   background-position: center top -120px;
   font-family: v.$font-text-primary;
