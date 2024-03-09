@@ -92,3 +92,25 @@
     display: none;
   }
 }
+
+.offcanvas-header {
+  .btn-close {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+}
+.navbar-toggler-custom {
+  border-color: v.$font-primary !important;
+}
+.offcanvas-body {
+  .nav-link {
+    color: v.$font-primary;
+    font-size: 2rem;
+    padding: 1rem;
+    &:hover {
+      background-color: v.$background-primary;
+    }
+  }
+}

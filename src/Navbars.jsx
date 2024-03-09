@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Ig, Fb, Email, Whats, Logo } from "./assets/icons/icons";
@@ -31,10 +32,20 @@ const socialIcons = [
 ];
 
 function OffcanvasExample() {
+  const [showOffcanvas, setShowOffcanvas] = useState(false);
+
+  const handleCloseOffcanvas = () => setShowOffcanvas(false);
+  const handleToggleOffcanvas = () => setShowOffcanvas((prev) => !prev);
+
   return (
     <>
       {[false].map((expand) => (
-        <Navbar key={expand} expand={expand} className="navbar__container">
+        <Navbar
+          key={expand}
+          expand={expand}
+          className="navbar__container"
+          variant="dark"
+        >
           <Container fluid className="custom-container">
             <div className="logo">
               <Link to="/">
@@ -42,51 +53,75 @@ function OffcanvasExample() {
               </Link>
             </div>
             <Nav className="navbar-nav">
-              <Nav.Link as={Link} to="/">
+              <Nav.Link as={Link} to="/" onClick={handleCloseOffcanvas}>
                 Home
               </Nav.Link>
-              <Nav.Link as={Link} to="/productos">
+              <Nav.Link
+                as={Link}
+                to="/productos"
+                onClick={handleCloseOffcanvas}
+              >
                 Productos
               </Nav.Link>
-              <Nav.Link as={Link} to="/aromas">
+              <Nav.Link as={Link} to="/aromas" onClick={handleCloseOffcanvas}>
                 Aromas
               </Nav.Link>
-              <Nav.Link as={Link} to="/nosotras">
+              <Nav.Link as={Link} to="/nosotras" onClick={handleCloseOffcanvas}>
                 Nosotras
               </Nav.Link>
-              <Nav.Link as={Link} to="/contacto">
+              <Nav.Link as={Link} to="/contacto" onClick={handleCloseOffcanvas}>
                 Contacto
               </Nav.Link>
             </Nav>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Toggle
+              onClick={handleToggleOffcanvas}
+              aria-controls={`offcanvasNavbar-expand-${expand}`}
+              className="navbar-toggler-custom"
+            />
             <Navbar.Offcanvas
+              show={showOffcanvas}
+              onHide={handleCloseOffcanvas}
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="start"
+              style={{ width: "100%", maxWidth: "260px" }}
             >
-              <Offcanvas.Header closeButton>
-                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="me-auto">
-                      <Nav.Link as={Link} to="/">
-                        Home
-                      </Nav.Link>
-                      <Nav.Link as={Link} to="/productos">
-                        Productos
-                      </Nav.Link>
-                      <Nav.Link as={Link} to="/aromas">
-                        Aromas
-                      </Nav.Link>
-                      <Nav.Link as={Link} to="/nosotras">
-                        Nosotras
-                      </Nav.Link>
-                      <Nav.Link as={Link} to="/contacto">
-                        Contacto
-                      </Nav.Link>
-                    </Nav>
-                  </Navbar.Collapse>
-                </Offcanvas.Title>
-              </Offcanvas.Header>
+              <Offcanvas.Header closeButton></Offcanvas.Header>
+              <Offcanvas.Body>
+                <Nav className="flex-column">
+                  <Nav.Link as={Link} to="/" onClick={handleCloseOffcanvas}>
+                    Home
+                  </Nav.Link>
+                  <Nav.Link
+                    as={Link}
+                    to="/productos"
+                    onClick={handleCloseOffcanvas}
+                  >
+                    Productos
+                  </Nav.Link>
+                  <Nav.Link
+                    as={Link}
+                    to="/aromas"
+                    onClick={handleCloseOffcanvas}
+                  >
+                    Aromas
+                  </Nav.Link>
+                  <Nav.Link
+                    as={Link}
+                    to="/nosotras"
+                    onClick={handleCloseOffcanvas}
+                  >
+                    Nosotras
+                  </Nav.Link>
+                  <Nav.Link
+                    as={Link}
+                    to="/contacto"
+                    onClick={handleCloseOffcanvas}
+                  >
+                    Contacto
+                  </Nav.Link>
+                </Nav>
+              </Offcanvas.Body>
             </Navbar.Offcanvas>
             <div className="icons-redes">
               {socialIcons.map((icon, index) => (
