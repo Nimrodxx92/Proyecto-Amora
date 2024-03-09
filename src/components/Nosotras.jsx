@@ -1,4 +1,4 @@
-import { img1, img2, img3 } from "../assets/nosotras/nosotras";
+import { img1, img2, img3 } from "../../public/nosotras/nosotras";
 
 const Nosotras = () => {
   return (

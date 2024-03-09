@@ -4,67 +4,67 @@
       "id": "1",
       "nombre": "Lavanda",
       "descripcion": "El aroma a lavanda es conocido por su fragancia suave, fresca y floral, y está asociado con una variedad de propiedades beneficiosas para la salud y el bienestar. Tiene un efecto calmante y mejora la calidad del sueño, promoviendo un descanso reparador. Puede aliviar dolores musculares y de cabeza, reduce la ansiedad y el estrés, promoviendo sensación de serenidad y tranquilidad. ",
-      "imagen": "Amora/src/assets/aromas/lavanda.png"
+      "imagen": "../../../public/aromas/lavanda.png"
     },
     {
       "id": "2",
-      "nombre": "limón",
+      "nombre": "Limón",
       "descripcion": "El aroma a limón es conocido por ser refrescante, estimulante y revitalizador. Esta fragancia puede ayudar a mejorar la concentración y la atención, así como a combatir la fatiga y el cansancio. Como es refrescante, se convierte en una excelente opción para aromatizar espacios donde se busca una sensación de frescura y vitalidad. El limón tiene propiedades antibacterianas que ayudan a purificar el aire, y es conocido por sus efectos desodorantes, permitiendo neutralizar malos olores y refrescar el ambiente. Este aroma se usa mucho en productos de limpieza del hogar y cuidado personal.",
-      "imagen": "/src/assets/aromas/limon.png"
+      "imagen": "../../../public/aromas/limon.png"
     },
     {
       "id": "3",
       "nombre": "Bambú",
       "descripcion": "El aroma a rosas es reconocido por su delicadeza y su profundo efecto en los sentidos. Éste tiene un efecto calmante y relajante que puede ayudar a reducir el estrés y la tensión. Cuando se inhala esta fragancia, puede tener un estímulo positivo para la energía personal. También, durante mucho tiempo se ha utilizado el aroma a rosas como afrodisíaco, aumentando la líbido de ambos sexos. Permite la reducción del estrés, y brinda una renovada sensación de vitalidad. Se usa mucho para la ropa de cama, con el objetivo que tenga un aroma que calme los sentidos y la mente. ",
-      "imagen": "/assets/aromas/bambu.png"
+      "imagen": "../../../public/aromas/bambu.png"
     },
     {
       "id": "4",
-      "nombre": "rosas",
+      "nombre": "Rosas",
       "descripcion": "El aroma a bambú es fresco, limpio y natural. Tiene efecto revitalizante que puede ayudar a despertar los sentidos y aumentar la concentración. El aroma a bambú tiene propiedades equilibrantes que pueden ayudar a armonizar el cuerpo y la mente. Su aroma se asocia simbólicamente con la renovación y el rejuvenecimiento, y propone una conexión con la naturaleza. Es una opción muy elegida por las personas que buscan crear un ambiente sereno y revitalizante en su hogar o lugar de trabajo.",
-      "imagen": "../src/assets/aromas/rosas.png"
+      "imagen": "../../../public/aromas/rosas.png"
     },
     {
       "id": "5",
-      "nombre": "citrico",
+      "nombre": "Cítrico",
       "descripcion": "Los aromas cítricos son conocidos por su capacidad para estimular los sentidos y aumentar los niveles de energía. Inhalado, el aroma cítrico puede ayudar a combatir la fatiga y la somnolencia, proporcionando un impulso de vitalidad y alerta. Mejoran el estado de ánimo de las personas, y se los incluye en muchos productos de limpieza por sus efectos desodorantes, que dejan un aroma fresco y limpio en el lugar. Se cree que los aromas cítricos tienen propiedades estimulantes digestivas que pueden ayudar a aliviar malestares estomacales.",
-      "imagen": "../assets/aromas/citricos.png"
+      "imagen": "../../../public/aromas/citricos.png"
     },
     {
       "id": "6",
-      "nombre": "oriental",
+      "nombre": "Oriental",
       "descripcion": "El aroma oriental evoca un sentido de misterio, sensualidad y exotismo, y está compuesto por una mezcla de notas cálidas, especiadas, amaderadas y florales. Las notas exóticas que tiene este aroma despiertan los sentidos, y las cálidas proponen una sensación de seguridad. Es una fragancia que despierta misterio y evoca imágenes y sensaciones de lugares exóticos y lejanos. El aroma atractivo y la sofisticación que implica la convierten en una fragancia muy utilizada en perfumes, además de su larga estadía en las superficies y ambientes.",
-      "imagen": "oriental.png"
+      "imagen": "../../../public/aromas/oriental.png"
     },
     {
       "id": "7",
-      "nombre": "coco y vainilla",
+      "nombre": "Coco y vainilla",
       "descripcion": "El aroma a vainilla tiene efectos calmantes y relajantes. Cuando se inhala, puede ayudar a reducir el estrés y la ansiedad. El aroma reconfortante mejora el estado de ánimo en las personas, y puede aumentar la energía y la concentración. El aroma del coco, dulce y tropical, actúa como relajante y antidepresivo, ya que promueve estados de alegría. Además, el aroma proporciona un alivio del estrés, ya que se asocia con lugares tranquilos y paradisíacos, un descanso a la mente. Este aroma tiene efectos positivos en el bienestar general.",
-      "imagen": "coco-vainilla.png"
+      "imagen": "../../../public/aromas/coco-vainilla.png"
     },
     {
       "id": "8",
-      "nombre": "violeta verbena",
+      "nombre": "Violeta verbena",
       "descripcion": "La fragancia de violeta es suave, dulce y floral, y se utiliza para equilibrar las emociones y promover un sentido de armonía interior. Motoriza un buen estado de ánimo y relaja la mente y el cuerpo. El aroma a verbena es refrescante y cítrico, y contiene efectos antidepresivos. Como el resto de los cítricos, esta fragancia ayuda a neutralizar olores desagradables y refrescar el ambiente. Tanto el aroma de violeta como el de verbena tienen propiedades relajantes, estimulantes y refrescantes que los convierten en muy buenas alternativas para los productos de cuidado personal y del hogar. ",
-      "imagen": "violeta-verbena.png"
+      "imagen": "../../../public/aromas/violeta-verbena.png"
     },
     {
       "id": "9",
-      "nombre": "hierbas y flores",
+      "nombre": "Hierbas y flores",
       "descripcion": "El aroma de hierbas y flores es una mezcla encantadora que combina las características frescas y terrosas de las hierbas con la dulzura y la delicadeza de las flores. Este tipo de aroma evoca sensaciones de naturaleza, frescura y bienestar. Esta fragancia tiene propiedades relajantes para la mente y el cuerpo, al mismo tiempo que las notas terrosas pueden ser estimulantes para los sentidos. Las flores permiten que la energía se equilibre, y entre ambas promueven una sensación de vitalidad y suavidad. Es muy común utilizar este aroma en lugares donde se pasa mucho tiempo, para renovar la energía de los ambientes. ",
-      "imagen": "hierbas-flores.png"
+      "imagen": "../../../public/aromas/hierbas-flores.png"
     },
     {
       "id": "10",
-      "nombre": "flores blancas",
+      "nombre": "Flores blancas",
       "descripcion": "El aroma a flores blancas es conocido por su delicadeza, frescura y elegancia. Está compuesto por las fragancias del jazmín, la gardenia, el lirio, el nardo, entre otras. Este aroma está asociado con la sensualidad y el romanticismo, asimismo con la feminidad y la elegancia por sus notas suaves y delicadas. El aroma a flores blancas puede tener un efecto relajante y reconfortante en el cuerpo y la mente, y el color blanco, generalmente asociado a la claridad y la pureza, también provee esa sensación. Este aroma se utiliza en variados ambientes y en productos para perfumar ropa de cama, también.",
-      "imagen": "flores-blancas.png"
+      "imagen": "../../../public/aromas/flores-blancas.png"
     },
     {
       "id": "11",
-      "nombre": "flores silvestres",
+      "nombre": "Flores silvestres",
       "descripcion": "El aroma a flores silvestres evoca la naturaleza en su estado más puro. Sus notas florales frescas y vibrantes son reminiscentes de los campos y prados llenos de color y vida. Cuando se inhala, el aroma a flores silvestres provoca una sensación de calma y serenidad, así como también un efecto revitalizante. Al ser un aroma floral, tiene un efecto positivo en el estado de ánimo, promoviendo estados de alegría y bienestar. El aroma a flores silvestres es simple y natural, suave y delicado, lo que lo convierte en ideal para todo tipo de situaciones y ambientes.",
-      "imagen": "flores-silvestres.png"
+      "imagen": "../../../public/aromas/flores-silvestres.png"
     }
   ]
 }
