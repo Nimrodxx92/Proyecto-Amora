@@ -1,7 +1,7 @@
 import { Ig, Email, Whats, Fb } from "../assets/icons/icons";
-import img1 from "../assets/contacto/contacto-1.jpg";
-import img2 from "../assets/contacto/contacto-2.jpg";
-import img3 from "../assets/contacto/contacto-3.jpg";
+import img1 from "../assets/contacto/contacto-1.png";
+import img2 from "../assets/contacto/contacto-2.png";
+import img3 from "../assets/contacto/contacto-3.png";
 
 const Contacto = () => {
   return (
