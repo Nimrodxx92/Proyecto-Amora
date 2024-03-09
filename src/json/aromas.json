@@ -2,33 +2,33 @@
   "aromas": [
     {
       "id": "1",
-      "nombre": "lavanda",
+      "nombre": "Lavanda",
       "descripcion": "El aroma a lavanda es conocido por su fragancia suave, fresca y floral, y está asociado con una variedad de propiedades beneficiosas para la salud y el bienestar. Tiene un efecto calmante y mejora la calidad del sueño, promoviendo un descanso reparador. Puede aliviar dolores musculares y de cabeza, reduce la ansiedad y el estrés, promoviendo sensación de serenidad y tranquilidad. ",
-      "imagen": "lavanda.png"
+      "imagen": "Amora/src/assets/aromas/lavanda.png"
     },
     {
       "id": "2",
       "nombre": "limón",
       "descripcion": "El aroma a limón es conocido por ser refrescante, estimulante y revitalizador. Esta fragancia puede ayudar a mejorar la concentración y la atención, así como a combatir la fatiga y el cansancio. Como es refrescante, se convierte en una excelente opción para aromatizar espacios donde se busca una sensación de frescura y vitalidad. El limón tiene propiedades antibacterianas que ayudan a purificar el aire, y es conocido por sus efectos desodorantes, permitiendo neutralizar malos olores y refrescar el ambiente. Este aroma se usa mucho en productos de limpieza del hogar y cuidado personal.",
-      "imagen": "limon.png"
+      "imagen": "/src/assets/aromas/limon.png"
     },
     {
       "id": "3",
-      "nombre": "bambú",
+      "nombre": "Bambú",
       "descripcion": "El aroma a rosas es reconocido por su delicadeza y su profundo efecto en los sentidos. Éste tiene un efecto calmante y relajante que puede ayudar a reducir el estrés y la tensión. Cuando se inhala esta fragancia, puede tener un estímulo positivo para la energía personal. También, durante mucho tiempo se ha utilizado el aroma a rosas como afrodisíaco, aumentando la líbido de ambos sexos. Permite la reducción del estrés, y brinda una renovada sensación de vitalidad. Se usa mucho para la ropa de cama, con el objetivo que tenga un aroma que calme los sentidos y la mente. ",
-      "imagen": "bambu.png"
+      "imagen": "/assets/aromas/bambu.png"
     },
     {
       "id": "4",
       "nombre": "rosas",
       "descripcion": "El aroma a bambú es fresco, limpio y natural. Tiene efecto revitalizante que puede ayudar a despertar los sentidos y aumentar la concentración. El aroma a bambú tiene propiedades equilibrantes que pueden ayudar a armonizar el cuerpo y la mente. Su aroma se asocia simbólicamente con la renovación y el rejuvenecimiento, y propone una conexión con la naturaleza. Es una opción muy elegida por las personas que buscan crear un ambiente sereno y revitalizante en su hogar o lugar de trabajo.",
-      "imagen": "rosas.png"
+      "imagen": "../src/assets/aromas/rosas.png"
     },
     {
       "id": "5",
       "nombre": "citrico",
       "descripcion": "Los aromas cítricos son conocidos por su capacidad para estimular los sentidos y aumentar los niveles de energía. Inhalado, el aroma cítrico puede ayudar a combatir la fatiga y la somnolencia, proporcionando un impulso de vitalidad y alerta. Mejoran el estado de ánimo de las personas, y se los incluye en muchos productos de limpieza por sus efectos desodorantes, que dejan un aroma fresco y limpio en el lugar. Se cree que los aromas cítricos tienen propiedades estimulantes digestivas que pueden ayudar a aliviar malestares estomacales.",
-      "imagen": "citricos.png"
+      "imagen": "../assets/aromas/citricos.png"
     },
     {
       "id": "6",

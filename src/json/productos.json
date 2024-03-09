@@ -4,8 +4,8 @@
       "id": "0001",
       "nombre": "Caramelera",
       "descripcion": "Nuestra vela con forma de caramelera hace alusión a la infancia y la inocencia de esa época, con detalles que completan la experiencia. Esta vela está hecha a base de cera de soja, de forma artesanal. Ideal para regalar a tu pareja en ese día especial.",
-      "imagen": "../src/assets/productos/velas/envase-vidrio/caramelera01.jpg",
-      "imagen2": "/src/assets/productos/velas/envase-vidrio/caramelera02.jpg",
+      "imagen": "src/assets/productos/velas/envase-vidrio/caramelera01.jpg",
+      "imagen2": "../assets/productos/velas/envase-vidrio/caramelera02.jpg",
       "categoria": "Velas",
       "subcategoria": "Base de vidrio"
     },
@@ -13,7 +13,7 @@
       "id": "0004",
       "nombre": "Corazón",
       "descripcion": "Esta vela con forma de corazón emana ternura y amor, iluminando todos los espacios donde la coloques. Está hecha a base de cera de soja y elaborada artesanalmente. Ya sea como un regalo especial para alguien querido o como un toque de amor en tu propio hogar, esta vela con forma de corazón es la expresión perfecta de afecto y cariño.",
-      "imagen": "src/assets/productos/velas/yeso/Corazón0004.jpg",
+      "imagen": "../assets/productos/velas/yeso/Corazón0004.jpg",
       "categoria": "Velas",
       "subcategoria": "Envase de yeso"
     },
@@ -21,7 +21,7 @@
       "id": "0005",
       "nombre": "Estrella Strass",
       "descripcion": "Nuestra vela con forma de estrella y envase de yeso fue elaborada artesanalmente, con base de cera de soja. El detalle del strass agrega un toque de encanto y sofisticación a cualquier ambiente. Esta vela es ideal para regalar a quien quieras.",
-      "imagen": "/src/assets/productos/velas/yeso/EstrellaStrass0005.jpg",
+      "imagen": "../assets/productos/velas/yeso/EstrellaStrass0005.jpg",
       "categoria": "Velas",
       "subcategoria": "Envase de yeso"
     },
@@ -29,7 +29,7 @@
       "id": "0007",
       "nombre": "Olas",
       "descripcion": "Nuestra vela de olas captura la esencia del mar, haciendo tributo a su magnificencia. Moldeada con curvas suaves como el movimiento de las olas, esta vela infunde tu espacio con una sensación de frescura y vitalidad. Nuestras velas son elaboradas artesanalmente, a partir de cera de soja.",
-      "imagen": "/src/assets/productos/velas/yeso/Olas0007.jpg",
+      "imagen": "../assets/productos/velas/yeso/Olas0007.jpg",
       "categoria": "Velas",
       "subcategoria": "Envase de yeso"
     },
@@ -37,7 +37,7 @@
       "id": "0018",
       "nombre": "Bubble Big",
       "descripcion": "Nuestra vela de molde con forma de burbujas fue elaborada artesanalmente, a base de cera de soja. Inspirada en la alegría de las burbujas, combinado con la elegancia de un cubo simétrico. Ideal para regalar en ese día especial.",
-      "imagen": "/src/assets/productos/velas/molde/BubbleBig-0018.jpg",
+      "imagen": "../../assets/productos/velas/molde/BubbleBig-0018.jpg",
       "categoria": "Velas",
       "subcategoria": "Molde"
     },
