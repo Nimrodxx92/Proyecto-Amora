@@ -1,8 +1,7 @@
 import { Ig, Email, Whats, Fb } from "../assets/icons/icons";
+import { img1, img2, img3 } from "../../public/contacto/contacto";
 
 const Contacto = () => {
-  const urlImage = "../src/assets/contacto";
-
   return (
     <>
       <section className="container__contacto">
@@ -26,14 +25,14 @@ const Contacto = () => {
             </div>
           </div>
           <div className="img-uno">
-            <img src={`${urlImage}/contacto-1.png`} alt="" />
+            <img src={img1} alt="" />
           </div>
         </div>
       </section>
       <section className="container__contacto background-change">
         <div className="contact__firts">
           <div className="img-uno">
-            <img src={`${urlImage}/contacto-2.png`} alt="" />
+            <img src={img2} alt="" />
           </div>
           <div>
             <h2>Seguinos en todas nuestras redes sociales</h2>
@@ -66,7 +65,7 @@ const Contacto = () => {
             <p>¡Te esperamos!</p>
           </div>
           <div className="img-uno">
-            <img src={`${urlImage}/contacto-3.png`} alt="" />
+            <img src={img3} alt="" />
           </div>
         </div>
       </section>
