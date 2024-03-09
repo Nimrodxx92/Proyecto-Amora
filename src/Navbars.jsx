@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Container, Nav, Navbar } from "react-bootstrap";
 import { Ig, Fb, Email, Whats, Logo } from "./assets/icons/icons";
+import Offcanvas from "react-bootstrap/Offcanvas";
 
 const socialIcons = [
   {
@@ -29,50 +30,81 @@ const socialIcons = [
   },
 ];
 
-function BasicExample() {
+function OffcanvasExample() {
   return (
-    <Navbar expand="lg" className="navbar__container">
-      <Container className="custom-container">
-        <div className="logo">
-          <Link to="/">
-            <img src={Logo} alt="Logo Amora" />
-          </Link>
-        </div>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link as={Link} to="/">
-              Home
-            </Nav.Link>
-            <Nav.Link as={Link} to="/productos">
-              Productos
-            </Nav.Link>
-            <Nav.Link as={Link} to="/aromas">
-              Aromas
-            </Nav.Link>
-            <Nav.Link as={Link} to="/nosotras">
-              Nosotras
-            </Nav.Link>
-            <Nav.Link as={Link} to="/contacto">
-              Contacto
-            </Nav.Link>
-          </Nav>
-        </Navbar.Collapse>
-        <div className="icons-redes">
-          {socialIcons.map((icon, index) => (
-            <Link
-              key={index}
-              to={icon.link}
-              target="_blank"
-              className={icon.className}
+    <>
+      {[false].map((expand) => (
+        <Navbar key={expand} expand={expand} className="navbar__container">
+          <Container fluid className="custom-container">
+            <div className="logo">
+              <Link to="/">
+                <img src={Logo} alt="Logo Amora" />
+              </Link>
+            </div>
+            <Nav className="navbar-nav">
+              <Nav.Link as={Link} to="/">
+                Home
+              </Nav.Link>
+              <Nav.Link as={Link} to="/productos">
+                Productos
+              </Nav.Link>
+              <Nav.Link as={Link} to="/aromas">
+                Aromas
+              </Nav.Link>
+              <Nav.Link as={Link} to="/nosotras">
+                Nosotras
+              </Nav.Link>
+              <Nav.Link as={Link} to="/contacto">
+                Contacto
+              </Nav.Link>
+            </Nav>
+            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Offcanvas
+              id={`offcanvasNavbar-expand-${expand}`}
+              aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
+              placement="start"
             >
-              <img src={icon.image} alt={icon.name} />
-            </Link>
-          ))}
-        </div>
-      </Container>
-    </Navbar>
+              <Offcanvas.Header closeButton>
+                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
+                  <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav className="me-auto">
+                      <Nav.Link as={Link} to="/">
+                        Home
+                      </Nav.Link>
+                      <Nav.Link as={Link} to="/productos">
+                        Productos
+                      </Nav.Link>
+                      <Nav.Link as={Link} to="/aromas">
+                        Aromas
+                      </Nav.Link>
+                      <Nav.Link as={Link} to="/nosotras">
+                        Nosotras
+                      </Nav.Link>
+                      <Nav.Link as={Link} to="/contacto">
+                        Contacto
+                      </Nav.Link>
+                    </Nav>
+                  </Navbar.Collapse>
+                </Offcanvas.Title>
+              </Offcanvas.Header>
+            </Navbar.Offcanvas>
+            <div className="icons-redes">
+              {socialIcons.map((icon, index) => (
+                <Link
+                  key={index}
+                  to={icon.link}
+                  target="_blank"
+                  className={icon.className}
+                >
+                  <img src={icon.image} alt={icon.name} />
+                </Link>
+              ))}
+            </div>
+          </Container>
+        </Navbar>
+      ))}
+    </>
   );
 }
 
-export default BasicExample;
+export default OffcanvasExample;

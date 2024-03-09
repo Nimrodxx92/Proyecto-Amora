@@ -17,7 +17,7 @@ const Contacto = () => {
             <div className="icons">
               <div className="container-icons">
                 <img src={Whats} alt="Whatsapp" />
-                <p>+54 000 000 0000</p>
+                <p>+541130596616 / +5492323617071</p>
               </div>
               <div className="container-icons">
                 <img src={Email} alt="Email" />

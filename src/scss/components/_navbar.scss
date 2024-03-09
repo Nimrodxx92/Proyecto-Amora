@@ -9,8 +9,12 @@
   .custom-container {
     max-width: 92%;
     .navbar-nav {
-      flex-grow: 1;
+      display: flex;
+      flex-direction: row;
       justify-content: center;
+      @media (max-width: 991px) {
+        display: none;
+      }
       gap: 2.5rem;
       a {
         color: v.$font-primary;
@@ -52,13 +56,19 @@
     }
     .custom-container .navbar-nav a {
       font-size: 1.7rem;
+      order: 1;
     }
-    .navbar-toggler {
-      order: -1;
+    .logo {
+      order: 2;
+      margin-left: 0;
+    }
+    .icons-redes {
+      order: 3;
     }
     .facebook-icon {
       display: none;
     }
+
     @media (min-width: 700px) and (max-width: 991px) {
       .logo {
         margin-left: 100px;
@@ -70,5 +80,15 @@
         display: none;
       }
     }
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar__container .navbar-toggler {
+    display: none;
+  }
+
+  .navbar__container .offcanvas-collapse {
+    display: none;
   }
 }

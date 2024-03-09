@@ -1,7 +1,7 @@
 @use "../base/variables" as v;
 
 .container__contacto {
-  padding: 1rem;
+  padding: 1vw;
   background: v.$background-nosotras;
   font-family: v.$font-text-primary;
   color: v.$font-primary;
@@ -13,14 +13,14 @@
     text-align: center;
     h1,
     h2 {
-      font-size: 3.6rem;
-      margin-bottom: 2rem;
+      font-size: 2.5vw;
+      margin-bottom: 2vw;
       text-wrap: pretty;
       font-weight: 700;
       line-height: 200%;
     }
     p {
-      font-size: 1.6rem;
+      font-size: 1.4vw;
       font-weight: 400;
       margin: 0;
     }
@@ -29,18 +29,18 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 1.5rem;
-      margin-top: 3.5rem;
-      margin-bottom: 3.5rem;
+      gap: 1.5vw;
+      margin-top: 2vw;
+      margin-bottom: 2vw;
       .container-icons {
         display: flex;
         justify-content: center;
         align-items: center;
         border: 2px solid #4a2a13;
         border-radius: 8px;
-        width: 65%;
+        width: 32vw;
         img {
-          width: 50px;
+          width: 5vw;
         }
       }
     }
@@ -50,7 +50,7 @@
     justify-content: center;
     img {
       width: 100%;
-      padding: 5rem;
+      padding: 5vw;
     }
   }
 }
