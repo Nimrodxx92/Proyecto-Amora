@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import productosData from "../json/productos.json";
 
 const DetalleProducto = () => {
@@ -33,6 +33,11 @@ const DetalleProducto = () => {
 
   return (
     <div className="detalle-container">
+      <div className="volver-productos">
+        <Link to="/productos">Productos</Link>
+        {productoSeleccionado &&
+          ` > ${productoSeleccionado.categoria} > ${productoSeleccionado.subcategoria}`}
+      </div>
       {productoSeleccionado && (
         <div className="container__detalle">
           <img
