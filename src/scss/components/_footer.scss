@@ -6,7 +6,6 @@ footer {
   justify-content: center;
   align-items: center;
   background-color: v.$background-primary;
-  padding: 1vw;
   gap: 2vw;
   font-family: v.$font-text-primary;
   font-size: 1.2vw;
@@ -27,5 +26,15 @@ footer {
   }
   p {
     margin: 0;
+  }
+}
+
+// Responsive
+@media screen and (max-width: 850px) {
+  footer {
+    font-size: 1.6vw;
+    img {
+      width: 30px;
+    }
   }
 }

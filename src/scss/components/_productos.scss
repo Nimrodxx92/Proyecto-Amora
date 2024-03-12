@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   background-color: v.$background-nosotras;
+  gap: 4rem;
   .filter__container {
     padding: 6rem;
     @media (max-width: 990px) {

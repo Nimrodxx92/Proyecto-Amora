@@ -2,9 +2,7 @@
 
 .container__contacto {
   max-width: 1400px;
-  padding: 1vw;
   background: v.$background-nosotras;
-  font-family: v.$font-text-primary;
   color: v.$font-primary;
   .contact__firts {
     display: grid;
@@ -12,18 +10,29 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    margin: -1.7361vw 4.4444vw;
     h1,
-    h2 {
+    h2,
+    h3 {
       font-size: 2.5vw;
       margin-bottom: 2vw;
       text-wrap: pretty;
       font-weight: 700;
       line-height: 200%;
+      font-family: v.$font-text-primary;
     }
     p {
-      font-size: 1.4vw;
+      font-size: 1.2vw;
       font-weight: 400;
       margin: 0;
+      line-height: 2.5vw;
+      font-family: "Myriad Pro";
+    }
+    .p-last {
+      margin-top: 2vw;
+    }
+    .firts-txt {
+      text-align: justify;
     }
     .icons {
       display: flex;
@@ -39,20 +48,29 @@
         align-items: center;
         border: 2px solid #4a2a13;
         border-radius: 8px;
-        width: 32vw;
+        width: 27vw;
+        height: 3.5vw;
+        p {
+          font-weight: 700;
+          font-family: v.$font-text-primary;
+        }
         img {
           width: 5vw;
         }
       }
     }
   }
-  .img-uno {
+  .img-uno,
+  .img-dos {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     img {
-      width: 100%;
-      padding: 5vw;
+      width: 80%;
+      padding: 5vw 0vw;
     }
+  }
+  .img-dos {
+    justify-content: start;
   }
 }
 
@@ -64,15 +82,38 @@
       flex-direction: column;
       h1,
       h2 {
-        font-size: 4vw;
+        font-size: 4.5vw;
+      }
+      h3 {
+        font-size: 4.5vw;
+        margin-top: 3vw;
+      }
+      .title-firts {
+        margin-top: 4vw;
       }
       p {
-        font-size: 2.5vw;
+        font-size: 2.4vw;
+        margin: 2vw;
+        line-height: 4vw;
+      }
+      .firts-txt {
+        text-align: center;
       }
       .icons {
         .container-icons {
-          width: 55vw;
+          width: 46vw;
+          height: 6vw;
+          p {
+            font-size: 2.1vw;
+          }
         }
+      }
+      .img-uno,
+      .img-dos {
+        justify-content: center;
+      }
+      img {
+        width: 70%;
       }
     }
   }

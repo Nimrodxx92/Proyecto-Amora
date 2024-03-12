@@ -21,7 +21,7 @@
       }
     }
     .parrafo-txt {
-      font-size: 16px;
+      font-size: 18px;
       line-height: 12px;
       margin-bottom: 1rem;
       text-align: center;
@@ -47,7 +47,6 @@
   margin-top: 5rem;
   padding: 8em 0;
   .card {
-    border: 0.5px solid rgb(139, 139, 139);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     img {
@@ -114,7 +113,9 @@
       }
       .parrafo-txt {
         button {
-          padding: 1.8rem 5rem;
+          width: 220px;
+          height: 64px;
+          font-size: 18px;
         }
       }
     }
@@ -193,9 +194,11 @@
         margin-bottom: 2rem;
       }
       .parrafo-txt {
-        font-size: 12px;
+        font-size: 15px;
         button {
-          padding: 1.5rem 3.8rem;
+          width: 220px;
+          height: 64px;
+          font-size: 20px;
           margin-top: 2rem;
         }
       }

@@ -1,8 +1,8 @@
 @use "../base/variables" as v;
 
 .detalle-container {
+  max-width: 1400px;
   padding: 3vw 7vw;
-  font-family: "Noto Serif";
 }
 .container__detalle {
   display: flex;
@@ -10,7 +10,8 @@
   margin: 0 auto;
   color: v.$font-primary;
   img {
-    width: 70%;
+    width: 40%;
+    height: 100%;
     margin: 0 auto;
     border-radius: 8px;
     max-width: 100%;
@@ -25,6 +26,8 @@
     }
     h2 {
       font-size: 24px;
+      font-weight: 700;
+      font-family: "Noto Serif";
     }
     .id-txt {
       font-size: 14px;
@@ -34,10 +37,11 @@
   p {
     font-size: 15px;
     text-align: justify;
-    margin-top: 1.5vw;
+    margin-top: 1vw;
+    font-family: "Myriad Pro";
   }
   button {
-    margin-top: 1vw;
+    margin-top: 0vw;
   }
 }
 
@@ -46,14 +50,16 @@
   flex-direction: column;
   h3 {
     text-align: start;
-    margin-top: 3.5vw;
+    margin-top: 1.5vw;
     font-size: 20px;
+    font-family: "Noto Serif";
+    font-weight: 600;
   }
   .productos-miniatura-imagenes {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 3.5vw;
+    margin-top: 0.5vw;
     width: 70%;
     .container__img {
       cursor: pointer;
@@ -64,19 +70,26 @@
         border-radius: 8px;
         width: 85%;
         max-width: 100%;
+        &:hover {
+          transform: scale(1.2);
+        }
       }
     }
   }
 }
 .btn-comprar {
   background-color: v.$background-button;
-  width: 80%;
-  height: 60px;
+  width: 100%;
+  height: 62px;
   border-radius: 8px;
   color: white;
   font-weight: 700;
   margin: 0 auto;
   font-size: 25px;
+  font-family: "Noto Serif";
+  &:hover {
+    background-color: #d1345e;
+  }
 }
 
 @media screen and (max-width: 996px) {
@@ -92,6 +105,7 @@
       margin: 0;
       .id-txt {
         text-align: center;
+        margin-top: 1.5rem;
       }
       p {
         text-align: center;
@@ -111,4 +125,8 @@
       }
     }
   }
+}
+
+.colores-miniatura-imagenes {
+  display: flex;
 }

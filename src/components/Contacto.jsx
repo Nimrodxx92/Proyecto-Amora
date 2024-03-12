@@ -8,8 +8,8 @@ const Contacto = () => {
     <>
       <section className="container__contacto">
         <div className="contact__firts">
-          <div>
-            <h1>Ponete en contacto con nosotras</h1>
+          <div className="firts-txt">
+            <h1 className="title-firts">Ponete en contacto con nosotras</h1>
             <p>
               Si tienes alguna consulta, deseas más información sobre nuestros
               productos o necesitas asistencia personalizada, no dudes en
@@ -33,7 +33,7 @@ const Contacto = () => {
       </section>
       <section className="container__contacto background-change">
         <div className="contact__firts">
-          <div className="img-uno">
+          <div className="img-dos">
             <img src={img2} alt="" />
           </div>
           <div>
@@ -58,13 +58,13 @@ const Contacto = () => {
       <section className="container__contacto">
         <div className="contact__firts">
           <div>
-            <h2>Nuestra casa en Luján</h2>
+            <h3>Nuestra casa en Luján</h3>
             <p>¡Vení a visitarnos!</p>
             <p>
               Dirección: Italia 821, B6700 Luján, Provincia de Buenos Aires.
             </p>
             <p>Horario de atención: lunes a viernes, de 8:30hrs a 17:30hrs.</p>
-            <p>¡Te esperamos!</p>
+            <p className="p-last">¡Te esperamos!</p>
           </div>
           <div className="img-uno">
             <img src={img3} alt="" />
