@@ -36,7 +36,7 @@ const Contacto = () => {
           <div className="img-dos">
             <img src={img2} alt="" />
           </div>
-          <div>
+          <div className="div-dos">
             <h2>Seguinos en todas nuestras redes sociales</h2>
             <div className="icons">
               <div className="container-icons">

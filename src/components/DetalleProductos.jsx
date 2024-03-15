@@ -18,7 +18,7 @@ const DetalleProducto = () => {
     { color: "#C2F7FE", nombre: "Oriental" },
     { color: "#F2BA94", nombre: "Coco vainilla" },
     { color: "#9C7193", nombre: "Violeta verbena" },
-    { color: "#D4ECDC", nombre: "Hierbas y flores" },
+    { color: "#D4ECDC", nombre: "Hierbas flores" },
     { color: "#FFF9FA", nombre: "Flores blancas" },
     { color: "#FF7D7D", nombre: "Flores silvestre" },
   ];
@@ -91,35 +91,32 @@ const DetalleProducto = () => {
                 <div className="colores-miniatura">
                   <h3>Aromas disponibles:</h3>
                   <div className="colores-miniatura-imagenes">
-                    {colores.map((color, index) => (
-                      <div
-                        key={index}
-                        className="container__color"
-                        style={{
-                          display: "flex",
-                          flexDirection: "column",
-                          alignItems: "center",
-                          width: "60px",
-                          margin: "5px",
-                        }}
-                      >
+                    <div
+                      style={{
+                        display: "flex",
+                      }}
+                    >
+                      {colores.map((color, index) => (
                         <div
+                          key={index}
+                          className="container__color"
                           style={{
-                            backgroundColor: color.color,
-                            width: "30px",
-                            height: "30px",
-                            border: "1px solid black",
-                            marginBottom: "5px",
+                            display: "flex",
+                            flexDirection: "column",
+                            alignItems: "center",
+                            margin: "0.5vw",
                           }}
-                        ></div>
-                        <p style={{ margin: "0" }}>
-                          {color.nombre.split(" ")[0]}
-                        </p>
-                        <p style={{ margin: "0" }}>
-                          {color.nombre.split(" ")[1]}
-                        </p>
-                      </div>
-                    ))}
+                        >
+                          <div
+                            style={{
+                              backgroundColor: color.color,
+                            }}
+                          ></div>
+                          <p>{color.nombre.split(" ")[0]}</p>
+                          <p>{color.nombre.split(" ")[1]}</p>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 </div>
               )}

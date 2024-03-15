@@ -4,7 +4,7 @@
   background-color: v.$background-primary;
   display: flex;
   align-items: center;
-  max-width: 1400px;
+  max-width: 1800px;
   min-height: 104px;
   .custom-container {
     max-width: 92%;
@@ -21,6 +21,23 @@
         font-weight: 700;
         font-size: 1.8rem;
         font-family: "Noto Serif";
+        position: relative;
+        &::before {
+          content: " ";
+          height: 0.3rem;
+          background-color: v.$font-primary;
+          position: absolute;
+          bottom: -0.2rem;
+          border-radius: 1rem;
+          opacity: 0;
+          transform: translateX(-1.5rem);
+          transition: all 0.3s ease;
+        }
+        &:hover::before {
+          width: 100%;
+          transform: translateX(0);
+          opacity: 1;
+        }
       }
       .dropdown-menu {
         background-color: v.$background-primary;
