@@ -8,6 +8,7 @@ const DetalleProducto = () => {
   const [productosMismaSubcategoria, setProductosMismaSubcategoria] = useState(
     []
   );
+
   const colores = [
     { color: "#C799DC", nombre: "Lavanda" },
     { color: "#E3EC82", nombre: "Limón" },
@@ -54,78 +55,78 @@ const DetalleProducto = () => {
       </div>
       {productoSeleccionado && (
         <div className="container__detalle">
-          <img
-            src={productoSeleccionado.imagen}
-            alt={productoSeleccionado.nombre}
-            className="detalle-imagen"
-          />
-          <div className="container__info">
-            <div>
+          <div className="detalle-info">
+            <img
+              src={productoSeleccionado.imagen}
+              alt={productoSeleccionado.nombre}
+              className="detalle-imagen"
+            />
+            <div className="container__info">
               <h2>{productoSeleccionado.nombre}</h2>
               <p className="id-txt">Ref: #{productoSeleccionado.id}</p>
-            </div>
-            {productoSeleccionado.descripcion && (
-              <>
-                <p>{productoSeleccionado.descripcion.split(".")[0]}.</p>
-                <p>{productoSeleccionado.descripcion.split(".")[1]}</p>
-                <p>{productoSeleccionado.descripcion.split(".")[2]}</p>
-              </>
-            )}
-            {productoSeleccionado.subcategoria &&
-            productosMismaSubcategoria.length > 0 ? (
-              <div className="productos-miniatura">
-                <h3>Modelos disponibles:</h3>
-                <div className="productos-miniatura-imagenes">
-                  {productosMismaSubcategoria.map((producto) => (
-                    <div
-                      key={producto.id}
-                      className="container__img"
-                      onClick={() => setProductoSeleccionado(producto)}
-                    >
-                      <img src={producto.imagen} alt={producto.nombre} />
-                    </div>
-                  ))}
+              {productoSeleccionado.descripcion && (
+                <div className="descripcion">
+                  <p>{productoSeleccionado.descripcion.split(".")[0]}.</p>
+                  <p>{productoSeleccionado.descripcion.split(".")[1]}</p>
+                  <p>{productoSeleccionado.descripcion.split(".")[2]}</p>
                 </div>
-              </div>
-            ) : (
-              <div className="colores-miniatura">
-                <h3>Aromas disponibles:</h3>
-                <div className="colores-miniatura-imagenes">
-                  {colores.map((color, index) => (
-                    <div
-                      key={index}
-                      className="container__color"
-                      style={{
-                        display: "flex",
-                        flexDirection: "column",
-                        alignItems: "center",
-                        width: "60px",
-                        margin: "5px",
-                      }}
-                    >
+              )}
+              {productoSeleccionado.subcategoria &&
+              productosMismaSubcategoria.length > 0 ? (
+                <div className="productos-miniatura">
+                  <h3>Modelos disponibles:</h3>
+                  <div className="productos-miniatura-imagenes">
+                    {productosMismaSubcategoria.map((producto) => (
                       <div
-                        style={{
-                          backgroundColor: color.color,
-                          width: "30px",
-                          height: "30px",
-                          border: "1px solid black",
-                          marginBottom: "5px",
-                        }}
-                      ></div>
-                      <p style={{ margin: "0" }}>
-                        {color.nombre.split(" ")[0]}
-                      </p>
-                      <p style={{ margin: "0" }}>
-                        {color.nombre.split(" ")[1]}
-                      </p>
-                    </div>
-                  ))}
+                        key={producto.id}
+                        className="container__img"
+                        onClick={() => setProductoSeleccionado(producto)}
+                      >
+                        <img src={producto.imagen} alt={producto.nombre} />
+                      </div>
+                    ))}
+                  </div>
                 </div>
-              </div>
-            )}
-            <button className="btn-comprar" onClick={redirectToWhatsApp}>
-              Comprar
-            </button>
+              ) : (
+                <div className="colores-miniatura">
+                  <h3>Aromas disponibles:</h3>
+                  <div className="colores-miniatura-imagenes">
+                    {colores.map((color, index) => (
+                      <div
+                        key={index}
+                        className="container__color"
+                        style={{
+                          display: "flex",
+                          flexDirection: "column",
+                          alignItems: "center",
+                          width: "60px",
+                          margin: "5px",
+                        }}
+                      >
+                        <div
+                          style={{
+                            backgroundColor: color.color,
+                            width: "30px",
+                            height: "30px",
+                            border: "1px solid black",
+                            marginBottom: "5px",
+                          }}
+                        ></div>
+                        <p style={{ margin: "0" }}>
+                          {color.nombre.split(" ")[0]}
+                        </p>
+                        <p style={{ margin: "0" }}>
+                          {color.nombre.split(" ")[1]}
+                        </p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              )}
+              <button className="btn-comprar" onClick={redirectToWhatsApp}>
+                Comprar
+              </button>
+            </div>
           </div>
         </div>
       )}

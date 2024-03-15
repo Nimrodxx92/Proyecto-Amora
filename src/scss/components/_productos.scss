@@ -4,31 +4,30 @@
   display: flex;
   justify-content: center;
   background-color: v.$background-nosotras;
-  gap: 4rem;
   .filter__container {
-    padding: 6rem;
+    padding: 4.5vw;
     @media (max-width: 990px) {
       display: none;
     }
     h2 {
       color: v.$font-primary;
-      font-size: 22px;
+      font-size: 1.6vw;
     }
     .text__category {
-      margin-top: 1.5rem;
-      font-size: 1.4rem;
+      margin-top: 1.2vw;
+      font-size: 1.2vw;
       text-align: start;
       font-family: "Myriad Pro";
       color: v.$font-primary;
       li {
         cursor: pointer;
-        padding: 1rem 0;
+        padding: 0.8vw 0;
         &:hover {
           background-color: white;
         }
         &.selected {
           background-color: v.$background-primary;
-          padding: 1rem 0.3rem;
+          padding: 0.8vw 0.1vw;
         }
       }
     }
@@ -36,18 +35,15 @@
   .container__cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 3.5rem;
-    padding: 6rem;
+    gap: 3.5vw;
+    padding: 4vw;
     width: 75%;
     align-items: center;
-    @media (max-width: 1150px) {
+    @media (max-width: 900px) {
       grid-template-columns: repeat(2, 1fr);
-      @media (max-width: 990px) {
+      @media (max-width: 600px) {
         grid-template-columns: repeat(1, 1fr);
-        width: 50%;
-        @media (max-width: 710px) {
-          width: 80%;
-        }
+        width: 70%;
       }
     }
     .products__items {
@@ -70,23 +66,6 @@
         text-align: center;
         color: v.$font-primary;
         font-size: 22px;
-      }
-    }
-    // Responsive
-    @media (max-width: 1150px) {
-      .container__cards {
-        width: 50%;
-        display: flex;
-        justify-content: center;
-        @media (max-width: 1100px) {
-          width: 50%;
-          @media (max-width: 740px) {
-            width: 70%;
-            @media (max-width: 520px) {
-              width: 100%;
-            }
-          }
-        }
       }
     }
   }

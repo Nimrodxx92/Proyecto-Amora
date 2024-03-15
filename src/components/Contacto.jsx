@@ -31,7 +31,7 @@ const Contacto = () => {
           </div>
         </div>
       </section>
-      <section className="container__contacto background-change">
+      <section className="container__contacto section-pink">
         <div className="contact__firts">
           <div className="img-dos">
             <img src={img2} alt="" />

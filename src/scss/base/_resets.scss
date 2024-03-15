@@ -11,20 +11,6 @@ html {
   min-width: 0;
 }
 
-body {
-  min-height: 100dvh;
-}
-
-h1,
-h2,
-h3,
-h4 {
-  text-wrap: balance;
-}
-p {
-  text-wrap: pretty;
-}
-
 li {
   list-style: none;
 }
@@ -33,15 +19,6 @@ a {
   text-decoration: none;
 }
 
-input[type="submit"],
-input[type="reset"],
-input[type="button"],
 button {
-  background: none;
-  border: 0;
-  color: inherit;
-  font: inherit;
-  line-height: normal;
-  overflow: visible;
-  padding: 0;
+  border: none;
 }

@@ -64,7 +64,7 @@ const Footer = () => {
           </p>
         </section>
       ))}
-      <section>
+      <section className="geo">
         <img src={GeoL} alt="Location" />
         <p>Lujan, Provincia de Buenos Aires</p>
       </section>
