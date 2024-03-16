@@ -115,14 +115,15 @@
   margin: 0 !important;
   .btn-close {
     font-size: 1.5rem;
-    position: absolute;
-    top: 7.2vw;
-    right: 4.5vw;
   }
 }
 .logo-mobile {
   background-color: v.$background-primary;
   padding: 2.5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12vw;
 }
 .navbar-toggler-custom {
   border-color: v.$font-primary !important;

@@ -297,12 +297,27 @@
       "nombre": "Hornillo",
       "descripcion": "Nuestros hornillos son elaborados artesanalmente, y son ideales para colocar un par de gotas de tu esencia favorita, prender una pequeña vela en su interior y disfrutar del mejor aroma en tu hogar. El hornillo es fabricado en dos colores, blanco y crema.",
       "imagen": "/productos/accesorios/Hornillo-0066.jpg",
-      "imagen2": "/productos/accesorios/Hornillo2-0066.jpg",
+      "categoria": "Accesorios",
+      "subcategoria": "Hornillo"
+    },
+    {
+      "id": "0065",
+      "nombre": "Hornillo",
+      "descripcion": "Nuestros hornillos son elaborados artesanalmente, y son ideales para colocar un par de gotas de tu esencia favorita, prender una pequeña vela en su interior y disfrutar del mejor aroma en tu hogar. El hornillo es fabricado en dos colores, blanco y crema.",
+      "imagen": "/productos/accesorios/Hornillo2-0066.jpg",
       "categoria": "Accesorios",
       "subcategoria": "Hornillo"
     },
     {
       "id": "0067",
+      "nombre": "Base de sahumerios",
+      "descripcion": "Nuestras bases de sahumerios son elaboradas de manera artesanal a base de cerámica pintada a mano, para que puedas disfrutar del hermoso aroma y energía de tu sahumerio favorito. La base de sahumerio es fabricada en dos colores, blanco y crema.",
+      "imagen": "/productos/accesorios/base-sahumerio.jpg",
+      "categoria": "Accesorios",
+      "subcategoria": "Base de sahumerios"
+    },
+    {
+      "id": "0068",
       "nombre": "Base de sahumerios",
       "descripcion": "Nuestras bases de sahumerios son elaboradas de manera artesanal a base de cerámica pintada a mano, para que puedas disfrutar del hermoso aroma y energía de tu sahumerio favorito. La base de sahumerio es fabricada en dos colores, blanco y crema.",
       "imagen": "/productos/accesorios/base-sahumerio.jpg",
@@ -321,7 +336,7 @@
       "id": "201",
       "nombre": "Kit personalizados",
       "descripcion": "Tenemos variedad de kits personalizados, ideales para regalar a otros o para vos mismo. Los podés personalizar en cuanto a los productos que querés ponerle, y la fragancia que elegís para los mismos. ¡Podés combinarlos como vos quieras! De la presentación nos encargamos nosotras.",
-      "imagen": "/productos/kits/k02.png",
+      "imagen": "/productos/kits/k02.jpg",
       "categoria": "Kit Personalizados",
       "subcategoria": "Kit Personalizados"
     },

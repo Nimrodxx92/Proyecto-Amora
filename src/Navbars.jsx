@@ -86,10 +86,10 @@ function OffcanvasExample() {
               placement="start"
               style={{ width: "100%", maxWidth: "280px" }}
             >
-              <Offcanvas.Header closeButton></Offcanvas.Header>
               <Offcanvas.Body>
                 <div className="logo-mobile">
                   <img src={Logo} alt="Logo Amora" />
+                  <Offcanvas.Header closeButton></Offcanvas.Header>
                 </div>
                 <Nav className="flex-column">
                   <Nav.Link as={Link} to="/" onClick={handleCloseOffcanvas}>
