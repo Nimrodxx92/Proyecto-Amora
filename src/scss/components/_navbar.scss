@@ -66,7 +66,7 @@
   }
 
   /* Responsive tablet and mobile */
-  @media (max-width: 1070px) {
+  @media (max-width: 990px) {
     .navbar__container {
       justify-content: space-between;
       align-items: center;
@@ -111,21 +111,29 @@
 }
 
 .offcanvas-header {
+  padding: 0 !important;
+  margin: 0 !important;
   .btn-close {
     font-size: 1.5rem;
     position: absolute;
-    top: 15px;
-    right: 15px;
+    top: 7.2vw;
+    right: 4.5vw;
   }
+}
+.logo-mobile {
+  background-color: v.$background-primary;
+  padding: 2.5vw;
 }
 .navbar-toggler-custom {
   border-color: v.$font-primary !important;
 }
 .offcanvas-body {
+  padding: 0 !important;
+  margin: 0 !important;
   .nav-link {
     color: v.$font-primary;
     font-size: 2rem;
-    padding: 1rem;
+    padding: 3vw;
     &:hover {
       background-color: v.$background-primary;
     }

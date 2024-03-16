@@ -136,28 +136,33 @@
     .title__container {
       background-image: url("../assets/home-fondo01.jpg");
       background-size: cover;
+      background-position: center bottom -35px;
       display: flex;
       justify-content: center;
       h1 {
-        font-size: 8.2vw;
+        font-size: 9.2vw;
         margin-bottom: 4.5vw;
       }
       p {
-        font-size: 3.2vw;
-        margin-top: 4vw;
+        font-size: 3.5vw;
+        margin-top: 6.5vw;
+        line-height: 0.2vw;
       }
       .parrafo-txt {
         button {
           font-size: 4vw;
           margin-top: 5vw;
+          margin-bottom: 7vw;
         }
       }
     }
     .card__products {
       display: grid;
       grid-template-columns: repeat(1, 1fr);
+      gap: 8vw;
       .card {
         width: 100%;
+
         h4 {
           font-size: 4.5vw;
         }

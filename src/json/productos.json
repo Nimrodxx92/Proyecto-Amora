@@ -244,6 +244,30 @@
       "subcategoria": "Flores aromáticas"
     },
     {
+      "id": "0037",
+      "nombre": "Flor de tela",
+      "descripcion": "Nuestros ramos de flores se personalizan completamente según tus preferencias, confeccionados artesanalmente en una variedad de telas como tusor, lienzo y telas engomadas. Ofrecemos las flores en diversas tamaños: las grandes varían de 20 a 25 cm, las medianas tienen aproximadamente 15 cm y las pequeñas, 10 cm.",
+      "imagen": "/productos/flores/flores02.jpg",
+      "categoria": "Flores aromáticas",
+      "subcategoria": "Flores aromáticas"
+    },
+    {
+      "id": "0035",
+      "nombre": "Flor de tela",
+      "descripcion": "Nuestros ramos de flores se personalizan completamente según tus preferencias, confeccionados artesanalmente en una variedad de telas como tusor, lienzo y telas engomadas. Ofrecemos las flores en diversas tamaños: las grandes varían de 20 a 25 cm, las medianas tienen aproximadamente 15 cm y las pequeñas, 10 cm.",
+      "imagen": "/productos/flores/flores03.jpg",
+      "categoria": "Flores aromáticas",
+      "subcategoria": "Flores aromáticas"
+    },
+    {
+      "id": "0034",
+      "nombre": "Flor de tela",
+      "descripcion": "Nuestros ramos de flores se personalizan completamente según tus preferencias, confeccionados artesanalmente en una variedad de telas como tusor, lienzo y telas engomadas. Ofrecemos las flores en diversas tamaños: las grandes varían de 20 a 25 cm, las medianas tienen aproximadamente 15 cm y las pequeñas, 10 cm.",
+      "imagen": "/productos/flores/flores04.jpg",
+      "categoria": "Flores aromáticas",
+      "subcategoria": "Flores aromáticas"
+    },
+    {
       "id": "0101",
       "nombre": "Jabón líquido",
       "descripcion": "Nuestros jabones líquidos dejan tus manos limpias y perfumadas, a cualquier hora del día. Tenemos nuestros modelos en envase de vidrio transparente, o ámbar. También vienen envases de plástico, de 100cc, 150cc, 200cc o 250cc.",
