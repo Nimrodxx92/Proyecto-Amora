@@ -22,3 +22,8 @@ a {
 button {
   border: none;
 }
+
+::selection {
+  background-color: #b66279;
+  color: white;
+}

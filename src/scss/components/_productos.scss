@@ -5,14 +5,13 @@
   justify-content: center;
   background-color: v.$background-nosotras;
   max-width: 1800px;
-  min-height: 60vw;
+  min-height: 70vw;
   @media (max-width: 900px) {
     justify-content: space-between;
   }
   @media (max-width: 750px) {
     justify-content: center;
     align-items: center;
-    min-height: 100vw;
   }
   .filter__container {
     padding: 4.5vw;
