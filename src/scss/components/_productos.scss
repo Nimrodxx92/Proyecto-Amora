@@ -5,10 +5,17 @@
   justify-content: center;
   background-color: v.$background-nosotras;
   max-width: 1800px;
-  min-height: 100vh;
+  @media (max-width: 900px) {
+    justify-content: space-between;
+    min-height: 60vw;
+  }
+  @media (max-width: 750px) {
+    justify-content: center;
+    align-items: center;
+  }
   .filter__container {
     padding: 4.5vw;
-    @media (max-width: 990px) {
+    @media (max-width: 750px) {
       display: none;
     }
     h2 {
@@ -40,12 +47,14 @@
     gap: 3.5vw;
     padding: 4vw;
     width: 75%;
-    align-items: center;
+    height: 50%;
     @media (max-width: 900px) {
       grid-template-columns: repeat(2, 1fr);
+      width: 65%;
       @media (max-width: 600px) {
         grid-template-columns: repeat(1, 1fr);
         width: 70%;
+        gap: 8vw;
       }
     }
     .products__items {
