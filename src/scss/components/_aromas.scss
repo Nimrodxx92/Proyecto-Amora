@@ -26,8 +26,8 @@
         font-size: 3vw;
         margin-bottom: 3.5vw;
         font-weight: 700;
-        @media only screen and (max-width: 900px) {
-          font-size: 4vw;
+        @media (min-width: 600px) and (max-width: 900px) {
+          font-size: 3.5vw;
         }
       }
     }
@@ -35,9 +35,9 @@
       font-size: 1.3vw;
       font-family: "Myriad Pro";
       line-height: 1.8vw;
-      @media only screen and (max-width: 900px) {
-        font-size: 3.5vw;
-        line-height: 3vw;
+      @media (min-width: 600px) and (max-width: 900px) {
+        font-size: 2vw;
+        line-height: 3.5vw;
       }
     }
   }

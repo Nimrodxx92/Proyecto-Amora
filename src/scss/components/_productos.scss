@@ -5,9 +5,9 @@
   justify-content: center;
   background-color: v.$background-nosotras;
   max-width: 1800px;
+  min-height: 60vw;
   @media (max-width: 900px) {
     justify-content: space-between;
-    min-height: 60vw;
   }
   @media (max-width: 750px) {
     justify-content: center;
@@ -29,6 +29,9 @@
       text-align: start;
       font-family: "Myriad Pro";
       color: v.$font-primary;
+      @media (max-width: 980px) {
+        font-size: 1.5vw;
+      }
       li {
         cursor: pointer;
         padding: 0.8vw 0;

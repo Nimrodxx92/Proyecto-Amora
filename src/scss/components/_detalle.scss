@@ -97,9 +97,15 @@
   &:hover {
     background-color: #d1345e;
   }
+  @media screen and (max-width: 500px) {
+    margin-top: 5vw;
+  }
 }
 .volver-productos {
   margin-bottom: 1vw;
+  @media screen and (max-width: 500px) {
+    margin-top: 2vw;
+  }
   a {
     color: v.$font-primary;
     text-decoration: none;
@@ -126,6 +132,9 @@
       h2 {
         font-size: 5vw;
         text-align: center;
+        @media screen and (max-width: 600px) {
+          font-size: 5.9vw;
+        }
       }
     }
     .id-txt {
@@ -133,11 +142,17 @@
       margin-bottom: 1rem;
       font-size: 3.1vw;
       text-align: center;
+      @media screen and (max-width: 600px) {
+        font-size: 3.6vw;
+      }
     }
     .descripcion {
       font-size: 3vw;
-      line-height: 5.2vw;
+      line-height: 5.5vw;
       margin-top: 3vw;
+      @media screen and (max-width: 600px) {
+        font-size: 3.6vw;
+      }
     }
     .detalle-imagen {
       margin-top: 3vw;
@@ -161,6 +176,10 @@
     @media screen and (max-width: 820px) {
       font-size: 3vw;
       text-align: start;
+    }
+    @media screen and (max-width: 820px) {
+      font-size: 4.5vw;
+      margin-bottom: 3vw;
     }
   }
   p {

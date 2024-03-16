@@ -134,7 +134,10 @@
   .nav-link {
     color: v.$font-primary;
     font-size: 2rem;
-    padding: 3vw;
+    padding: 3.5vw 5vw;
+    @media (min-width: 660px) and (max-width: 900px) {
+      padding: 2vw 4vw;
+    }
     &:hover {
       background-color: v.$background-primary;
     }
