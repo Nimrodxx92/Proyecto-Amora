@@ -92,6 +92,7 @@ const DetalleProducto = () => {
                   <h3>Aromas disponibles:</h3>
                   <div className="colores-miniatura-imagenes">
                     <div
+                      className="cflex"
                       style={{
                         display: "flex",
                       }}
