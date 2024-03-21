@@ -41,7 +41,7 @@ const Footer = () => {
             <img src={icon.image} alt={icon.name} />
           </Link>
           {icon.numbers && (
-            <div>
+            <div className="whatsapp-numbers">
               {icon.numbers.map((whatsapp, idx) => (
                 <Link
                   key={idx}

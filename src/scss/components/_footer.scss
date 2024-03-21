@@ -16,6 +16,7 @@ footer {
   section {
     display: flex;
     align-items: center;
+
     img,
     a {
       cursor: pointer;
@@ -39,14 +40,17 @@ footer {
     @media screen and (max-width: 714px) {
       font-size: 2vw;
       @media screen and (max-width: 550px) {
-        font-size: 3vw;
+        font-size: 4vw;
       }
     }
     img {
-      width: 30px;
+      width: 50px;
     }
-    .whatsapp-icon {
+    .ig-icon {
       display: none;
+    }
+    .whatsapp-numbers a {
+      margin: 0 2vw;
     }
   }
 }
