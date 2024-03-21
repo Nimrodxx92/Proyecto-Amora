@@ -2,6 +2,7 @@ import { Ig, Email, Whats, Fb } from "../assets/icons/icons";
 import img1 from "../assets/contacto/contacto-1.png";
 import img2 from "../assets/contacto/contacto-2.png";
 import img3 from "../assets/contacto/contacto-3.png";
+import { NavLink } from "react-router-dom";
 
 const Contacto = () => {
   return (
@@ -17,12 +18,22 @@ const Contacto = () => {
             </p>
             <div className="icons">
               <div className="container-icons">
-                <img src={Whats} alt="Whatsapp" />
-                <p>+541130596616 / +5492323617071</p>
+                <NavLink
+                  to="https://api.whatsapp.com/send?phone=541130596616&text=%C2%A1Hola!%20te%20escribo%20por%20los%20producto%20de%20Amora.%20%F0%9F%8C%B8"
+                  target="_blank"
+                >
+                  <img src={Whats} alt="Whatsapp" />
+                  <p>+541130596616 / +5492323617071</p>
+                </NavLink>
               </div>
               <div className="container-icons">
-                <img src={Email} alt="Email" />
-                <p>amora.aromaterapia@gmail.com</p>
+                <NavLink
+                  to="mailto:amora.aromaterapia@gmail.com"
+                  target="_blank"
+                >
+                  <img src={Email} alt="Email" />
+                  <p>amora.aromaterapia@gmail.com</p>
+                </NavLink>
               </div>
             </div>
           </div>
@@ -40,12 +51,22 @@ const Contacto = () => {
             <h2>Seguinos en todas nuestras redes sociales</h2>
             <div className="icons">
               <div className="container-icons">
-                <img src={Ig} alt="Instagram" />
-                <p>@Amora.Aromaterapia</p>
+                <NavLink
+                  to="https://www.instagram.com/amora.aromaterapia/"
+                  target="_blank"
+                >
+                  <img src={Ig} alt="Instagram" />
+                  <p>@Amora.Aromaterapia</p>
+                </NavLink>
               </div>
               <div className="container-icons">
-                <img src={Fb} alt="Facebook" />
-                <p>@Amora.Aromaterapia</p>
+                <NavLink
+                  to="https://www.facebook.com/Amora.aromaterapia/"
+                  target="_blank"
+                >
+                  <img src={Fb} alt="Facebook" />
+                  <p>@Amora.Aromaterapia</p>
+                </NavLink>
               </div>
             </div>
             <p>

@@ -5,6 +5,7 @@ import productosData from "../json/productos.json";
 const DetalleProducto = () => {
   const { id } = useParams();
   const [productoSeleccionado, setProductoSeleccionado] = useState(null);
+  const [productoInicial, setProductoInicial] = useState(null);
   const [productosMismaSubcategoria, setProductosMismaSubcategoria] = useState(
     []
   );
@@ -27,8 +28,13 @@ const DetalleProducto = () => {
     const producto = productosData.productos.find(
       (producto) => producto.id === id
     );
+
+    if (!productoInicial) {
+      setProductoInicial(producto);
+    }
+
     setProductoSeleccionado(producto);
-  }, [id]);
+  }, [id, productoInicial]);
 
   useEffect(() => {
     if (productoSeleccionado && productoSeleccionado.subcategoria) {
@@ -37,13 +43,14 @@ const DetalleProducto = () => {
           producto.subcategoria === productoSeleccionado.subcategoria &&
           producto.id !== id
       );
+
       setProductosMismaSubcategoria(productosSubcategoria);
     }
   }, [productoSeleccionado, id]);
 
   const redirectToWhatsApp = () => {
     if (productoSeleccionado) {
-      const whatsappLink = `https://api.whatsapp.com/send?phone=541130596616&text=¡Hola!%20Me%20gustaría%20saber%20más%20sobre%20el%20producto%0A"${productoSeleccionado.nombre}".%20`;
+      const whatsappLink = `https://api.whatsapp.com/send?phone=5492323617071&text=¡Hola!%20Me%20gustaría%20saber%20más%20sobre%20el%20producto%0A"${productoSeleccionado.nombre}".%20`;
       window.open(whatsappLink, "_blank");
     }
   };
@@ -76,6 +83,17 @@ const DetalleProducto = () => {
                 <div className="productos-miniatura">
                   <h3>Modelos disponibles:</h3>
                   <div className="productos-miniatura-imagenes">
+                    {productoInicial && (
+                      <div
+                        className="init"
+                        onClick={() => setProductoSeleccionado(productoInicial)}
+                      >
+                        <img
+                          src={productoInicial.imagen}
+                          alt={productoInicial.nombre}
+                        />
+                      </div>
+                    )}
                     {productosMismaSubcategoria.map((producto) => (
                       <div
                         key={producto.id}
